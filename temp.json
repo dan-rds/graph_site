@@ -1,0 +1,1351 @@
+{
+    "vendor": "American Megatrends Inc.",
+    "network": "Digilab",
+    "bios version": "2.0",
+    "hostname": "blh0",
+    "stroke": 1,
+    "info":[
+            "stroke\\r\\n",
+            "\\r\\nffddffd"
+            ],
+    "type": "red",
+    "children": [
+        {
+            "vendor": "American Megatrends Inc.",
+            "network": "Digilab",
+            "bios version": "2.0b",
+            "hostname": "blc01",
+            "stroke": 1,
+            "type": "COMPUTE",
+            "children": [
+                {
+                    "stroke": 1,
+                    "name": "GPUs",
+                    "children": []
+                },
+                {
+                    "stroke": 1,
+                    "name": "NICs",
+                    "children": [
+                        {
+                            "name": "eth5",
+                            "ip": "10.10.10.134",
+                            "mac": "02:02:0a:0a:0a:86",
+                            "stroke": -1,
+                            "dns server": "blc01-5.tenge.pvt",
+                            "type": "nic",
+                            "speed": "-1"
+                        },
+                        {
+                            "name": "docker0",
+                            "ip": "172.17.0.1",
+                            "stroke": 1,
+                            "mac": "02:42:49:b6:df:88",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth1",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "ac:1f:6b:2d:03:f9",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth2",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "ac:1f:6b:2d:03:fa",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth3",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "ac:1f:6b:2d:03:fb",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "lo",
+                            "ip": "127.0.0.1",
+                            "mac": false,
+                            "stroke": 1,
+                            "dns server": "localhost.bl.pvt",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth0",
+                            "ip": "10.0.1.111",
+                            "mac": "ac:1f:6b:2d:03:f8",
+                            "stroke": 10,
+                            "dns server": "blc01.bl.pvt",
+                            "type": "nic",
+                            "speed": "1000"
+                        },
+                        {
+                            "name": "eth4",
+                            "ip": "10.10.10.6",
+                            "mac": "02:02:0a:0a:0a:06",
+                            "stroke": 400,
+                            "dns server": "blc01-4.tenge.pvt",
+                            "type": "nic",
+                            "speed": "40000"
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "name": "CPUs",
+                    "children": [
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "clock": "3000.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 8,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "threads per core": "1",
+                            "type": "cpu",
+                            "socket": 0
+                        },
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "clock": "3000.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 8,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "threads per core": "1",
+                            "type": "cpu",
+                            "socket": 1
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "total": "65860620 kB",
+                    "name": "Memory"
+                },
+                {
+                    "stroke": 1,
+                    "name": "Disks",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "vendor": "American Megatrends Inc.",
+            "network": "Digilab",
+            "bios version": "1.0b",
+            "hostname": "bls0",
+            "stroke": 1,
+            "type": "STORAGE",
+            "children": [
+                {
+                    "stroke": 1,
+                    "name": "GPUs",
+                    "children": []
+                },
+                {
+                    "stroke": 1,
+                    "name": "NICs",
+                    "children": [
+                        {
+                            "name": "eth4",
+                            "ip": "10.10.10.2",
+                            "mac": "02:02:0a:0a:0a:02",
+                            "stroke": -1,
+                            "dns server": "bls0-4.tenge.pvt",
+                            "type": "nic",
+                            "speed": "-1"
+                        },
+                        {
+                            "name": "eth5",
+                            "ip": "10.10.10.130",
+                            "mac": "02:02:0a:0a:0a:82",
+                            "stroke": -1,
+                            "dns server": "bls0-5.tenge.pvt",
+                            "type": "nic",
+                            "speed": "-1"
+                        },
+                        {
+                            "name": "docker0",
+                            "ip": "172.17.0.1",
+                            "stroke": 1,
+                            "mac": "02:42:e6:0f:eb:67",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth1",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "0c:c4:7a:bc:96:bd",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth2",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "0c:c4:7a:bc:96:be",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth3",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "0c:c4:7a:bc:96:bf",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "lo",
+                            "ip": "127.0.0.1",
+                            "mac": false,
+                            "stroke": 1,
+                            "dns server": "localhost.bl.pvt",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth0",
+                            "ip": "10.0.1.72",
+                            "mac": "0c:c4:7a:bc:96:bc",
+                            "stroke": 10,
+                            "dns server": "bls0.bl.pvt",
+                            "type": "nic",
+                            "speed": "1000"
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "type": "hw",
+
+                    "name": "CPUs",
+                    "children": [
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "clock": "3200.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 12,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "threads per core": "2",
+                            "type": "cpu",
+                            "socket": 0
+                        },
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "clock": "3200.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 12,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "threads per core": "2",
+                            "type": "cpu",
+                            "socket": 1
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "total": "65865876 kB",
+                    "type": "hw",
+                    "name": "Memory"
+                },
+                {
+                    "stroke": 1,
+                    "name": "Disks",
+                    "children": [
+                        {
+                            "name": "d46",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "X5O1K4OMF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "46",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d38",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y5ADK1ECF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "38",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d43",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y5ADK1DZF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "43",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d41",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y5ADK1DWF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "41",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d45",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y586K2MSF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "45",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d39",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y56FK0M9F56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "39",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d40",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "855AK0OYF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "40",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d47",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y583K2C3F56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "47",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d44",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "759AK0EXF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "44",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d48",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y56EK15CF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "48",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d42",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y58EK16YF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "42",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d65",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9556KL8NFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "65",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d52",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9556KL8OFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "52",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d51",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9557KETRFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "51",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d63",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9548K9TGFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "63",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d62",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9556KL8KFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "62",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d67",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9547KEPZFSBATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "67",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d66",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9547KEPYFSBATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "66",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d70",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "85O8K916FSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "70",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d56",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9563KNFOFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "56",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d55",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "85SAKA70FSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "55",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d68",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9534KFAFFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "68",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d58",
+                            "firmware": "FP2A",
+                            "stroke": 1,
+                            "serial": "9565K7BVFSAATOSHIBA MD04ACA400                      FP2A",
+                            "type": "disk",
+                            "diskID": "58",
+                            "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                        },
+                        {
+                            "name": "d59",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y5AEK1A5F56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "59",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d72",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "Y58DK1B9F56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "72",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d57",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "758DK07GF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "57",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d53",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "758DK07MF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "53",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d74",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "759AK0G4F56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "74",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d61",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "85N9K134F56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "61",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d54",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "85J9K10SF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "54",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d71",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "75B6K16VF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "71",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d60",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "85JAK13BF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "60",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d64",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "85JBK0ILF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "64",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d73",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "85JAK13GF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "73",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        },
+                        {
+                            "name": "d69",
+                            "firmware": "FS2A",
+                            "stroke": 1,
+                            "serial": "75B6K16XF56DTOSHIBA HDWE160                         FS2A",
+                            "type": "disk",
+                            "diskID": "69",
+                            "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vendor": "American Megatrends Inc.",
+            "network": "Digilab",
+            "bios version": "1.0b",
+            "hostname": "blc00",
+            "stroke": 1,
+            "type": "COMPUTE",
+            "children": [
+                {
+                    "stroke": 1,
+                    "name": "GPUs",
+                    "children": [
+                        {
+                            "name": "GeForce GTX 1080",
+                            "bios version": "86.04.17.00.80",
+                            "pciid": "00000000:02:00.0",
+                            "stroke": 1,
+                            "node_type": "leaf",
+                            "memory": "8119",
+                            "serial": "[Not Supported]",
+                            "type": "gpu"
+                        },
+                        {
+                            "name": "GeForce GTX 1080",
+                            "bios version": "86.04.17.00.80",
+                            "pciid": "00000000:81:00.0",
+                            "stroke": 1,
+                            "node_type": "leaf",
+                            "memory": "8119",
+                            "serial": "[Not Supported]",
+                            "type": "gpu"
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "name": "NICs",
+                    "children": [
+                        {
+                            "name": "docker0",
+                            "ip": "172.17.0.1",
+                            "stroke": 1,
+                            "mac": "02:42:06:bf:57:87",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth1",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "0c:c4:7a:8e:0b:ad",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth2",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "0c:c4:7a:8e:0b:ae",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth3",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "0c:c4:7a:8e:0b:af",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "lo",
+                            "ip": "127.0.0.1",
+                            "mac": false,
+                            "stroke": 1,
+                            "dns server": "localhost.bl.pvt",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth0",
+                            "ip": "10.0.1.75",
+                            "mac": "0c:c4:7a:8e:0b:ac",
+                            "stroke": 10,
+                            "dns server": "blc00.bl.pvt",
+                            "type": "nic",
+                            "speed": "1000"
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "name": "CPUs",
+                    "children": [
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "clock": "3200.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 12,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "threads per core": "2",
+                            "type": "cpu",
+                            "socket": 0
+                        },
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "clock": "3200.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 12,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                            "threads per core": "2",
+                            "type": "cpu",
+                            "socket": 1
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "total": "65865884 kB",
+                    "name": "Memory"
+                },
+                {
+                    "stroke": 1,
+                    "name": "Disks",
+                    "children": [
+                        {
+                            "name": "d2",
+                            "firmware": "A3EA",
+                            "stroke": 1,
+                            "serial": "JK1171YBKATHHFHitachi HDS722020ALA330                 JKAOA3EA",
+                            "type": "disk",
+                            "diskID": "2",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d6",
+                            "firmware": "0A80",
+                            "stroke": 1,
+                            "serial": "WD-WCAVY4152307WDC WD20EARS-00S8B1                     80.00A80",
+                            "type": "disk",
+                            "diskID": "6",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d10",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD1B112981      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "10",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d14",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD2B220498      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "14",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d18",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR2E3WHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "18",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d22",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD2B403720      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "22",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d5",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR25PWHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "5",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d7",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR73XWHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "7",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d11",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JR0B502302      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "11",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d15",
+                            "firmware": "A3EA",
+                            "stroke": 1,
+                            "serial": "JK1171YBKAYG8FHitachi HDS722020ALA330                 JKAOA3EA",
+                            "type": "disk",
+                            "diskID": "15",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d19",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD2B403723      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "19",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d23",
+                            "firmware": "A3EA",
+                            "stroke": 1,
+                            "serial": "JK1171YBKB3LUFHitachi HDS722020ALA330                 JKAOA3EA",
+                            "type": "disk",
+                            "diskID": "23",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d3",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD1B220140      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "3",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d8",
+                            "firmware": "1G02",
+                            "stroke": 1,
+                            "serial": "WD-WMAVY0152909WDC WD2002FYPS-02W3B1                   04.01G02",
+                            "type": "disk",
+                            "diskID": "8",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d12",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD1B112980      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "12",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d16",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR6X9WHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "16",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d20",
+                            "firmware": "A3EA",
+                            "stroke": 1,
+                            "serial": "JK1171YBKAVTMFHitachi HDS722020ALA330                 JKAOA3EA",
+                            "type": "disk",
+                            "diskID": "20",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d9",
+                            "firmware": "1K02",
+                            "stroke": 1,
+                            "serial": "WD-WCC1P0878541WDC WD2000FYYZ-01UL1B1                  01.01K02",
+                            "type": "disk",
+                            "diskID": "9",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d13",
+                            "firmware": "1G02",
+                            "stroke": 1,
+                            "serial": "WD-WMAVY0151984WDC WD2002FYPS-02W3B1                   04.01G02",
+                            "type": "disk",
+                            "diskID": "13",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d17",
+                            "firmware": "1K01",
+                            "stroke": 1,
+                            "serial": "WD-WCC1P0318932WDC WD2000FYYZ-01UL1B0                  01.01K01",
+                            "type": "disk",
+                            "diskID": "17",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d21",
+                            "firmware": "1G01",
+                            "stroke": 1,
+                            "serial": "WD-WCAVY5377394WDC WD2002FYPS-02W3B0                   04.01G01",
+                            "type": "disk",
+                            "diskID": "21",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d25",
+                            "firmware": "1G01",
+                            "stroke": 1,
+                            "serial": "WD-WCAVY7407104WDC WD2002FYPS-02W3B0                   04.01G01",
+                            "type": "disk",
+                            "diskID": "25",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vendor": "American Megatrends Inc.",
+            "network": "Digilab",
+            "bios version": "2.0b",
+            "hostname": "blc02",
+            "stroke": 1,
+            "type": "COMPUTE",
+            "children": [
+                {
+                    "stroke": 1,
+                    "name": "GPUs",
+                    "children": [
+                        {
+                            "name": "TITAN Xp",
+                            "bios version": "86.02.3D.00.01",
+                            "pciid": "00000000:02:00.0",
+                            "stroke": 1,
+                            "node_type": "leaf",
+                            "memory": "12196",
+                            "serial": "0324517035065",
+                            "type": "gpu"
+                        },
+                        {
+                            "name": "TITAN V",
+                            "bios version": "88.00.41.00.03",
+                            "pciid": "00000000:82:00.0",
+                            "stroke": 1,
+                            "node_type": "leaf",
+                            "memory": "12066",
+                            "serial": "0320418070022",
+                            "type": "gpu"
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "name": "NICs",
+                    "children": [
+                        {
+                            "name": "eth5",
+                            "ip": "10.10.10.135",
+                            "mac": "02:02:0a:0a:0a:87",
+                            "stroke": -1,
+                            "dns server": "blc02-5.tenge.pvt",
+                            "type": "nic",
+                            "speed": "-1"
+                        },
+                        {
+                            "name": "docker0",
+                            "ip": "172.17.0.1",
+                            "stroke": 1,
+                            "mac": "02:42:d5:7d:48:c0",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth1",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "ac:1f:6b:2d:01:f1",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth2",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "ac:1f:6b:2d:01:f2",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth3",
+                            "ip": false,
+                            "stroke": 1,
+                            "mac": "ac:1f:6b:2d:01:f3",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "lo",
+                            "ip": "127.0.0.1",
+                            "mac": false,
+                            "stroke": 1,
+                            "dns server": "localhost.bl.pvt",
+                            "type": "nic",
+                            "speed": "NA"
+                        },
+                        {
+                            "name": "eth0",
+                            "ip": "10.0.1.112",
+                            "mac": "ac:1f:6b:2d:01:f0",
+                            "stroke": 10,
+                            "dns server": "blc02.bl.pvt",
+                            "type": "nic",
+                            "speed": "1000"
+                        },
+                        {
+                            "name": "eth4",
+                            "ip": "10.10.10.7",
+                            "mac": "02:02:0a:0a:0a:07",
+                            "stroke": 400,
+                            "dns server": "blc02-4.tenge.pvt",
+                            "type": "nic",
+                            "speed": "40000"
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "name": "CPUs",
+                    "children": [
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "clock": "3000.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 8,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "threads per core": "1",
+                            "type": "cpu",
+                            "socket": 0
+                        },
+                        {
+                            "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "clock": "3000.0000",
+                            "stroke": 1,
+                            "architecture": "x86_64",
+                            "cores": 8,
+                            "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+                            "threads per core": "1",
+                            "type": "cpu",
+                            "socket": 1
+                        }
+                    ]
+                },
+                {
+                    "stroke": 1,
+                    "total": "396161920 kB",
+                    "name": "Memory"
+                },
+                {
+                    "stroke": 1,
+                    "name": "Disks",
+                    "children": [
+                        {
+                            "name": "d2",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR6XHWHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "2",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d4",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J0RLUXHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "4",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d3",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR24MWHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "3",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d6",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD1B220323      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "6",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d5",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J0RL0XHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "5",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d7",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JHRN2WHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "7",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d13",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR2AYWHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "13",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d11",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR4R7WHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "11",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d12",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J36AMXHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "12",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d10",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J37BSXHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "10",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d8",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD1B113002      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "8",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d9",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR267WHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "9",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d14",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8J8NSTWHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "14",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d16",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J0RSAXHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "16",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d15",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J0083XHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "15",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d17",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A4B8JR3TJWHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "17",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d18",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J37ESXHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "18",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d19",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "ATA     Hitachi HDS72202A3MA      JK11A5B8J37BLX",
+                            "type": "disk",
+                            "diskID": "19",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d23",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD2B403709      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "23",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d24",
+                            "firmware": "A3MA",
+                            "stroke": 1,
+                            "serial": "JK11A5B8J0RKSXHitachi HDS722020ALA330                 JKAOA3MA",
+                            "type": "disk",
+                            "diskID": "24",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        },
+                        {
+                            "name": "d21",
+                            "firmware": "0001",
+                            "stroke": 1,
+                            "serial": "S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001",
+                            "type": "disk",
+                            "diskID": "21",
+                            "size": "1.819 TB [0xe8e088b0 Sectors]"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "children_hardware": [
+        {
+            "stroke": 1,
+            "name": "GPUs",
+            "children": []
+        },
+        {
+            "stroke": 1,
+            "name": "NICs",
+            "children": [
+                {
+                    "name": "tun0",
+                    "ip": "10.254.254.1  P-t-P:10.254.254.1",
+                    "stroke": 0,
+                    "mac": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00",
+                    "type": "nic",
+                    "speed": "10"
+                },
+                {
+                    "name": "eth2",
+                    "ip": false,
+                    "stroke": 1,
+                    "mac": "00:25:90:fb:92:16",
+                    "type": "nic",
+                    "speed": "NA"
+                },
+                {
+                    "name": "eth3",
+                    "ip": false,
+                    "stroke": 1,
+                    "mac": "00:25:90:fb:92:17",
+                    "type": "nic",
+                    "speed": "NA"
+                },
+                {
+                    "name": "lo",
+                    "ip": "127.0.0.1",
+                    "mac": false,
+                    "stroke": 1,
+                    "dns server": "localhost.bl.pvt",
+                    "type": "nic",
+                    "speed": "NA"
+                },
+                {
+                    "name": "eth0",
+                    "ip": "10.11.0.153",
+                    "mac": "00:25:90:fb:92:14",
+                    "stroke": 10,
+                    "dns server": "acmeh2.digilab.pvt",
+                    "type": "nic",
+                    "speed": "1000"
+                },
+                {
+                    "name": "eth1",
+                    "ip": "10.0.1.1",
+                    "mac": "00:25:90:fb:92:15",
+                    "stroke": 100,
+                    "dns server": "blh1.bl.pvt",
+                    "type": "nic",
+                    "speed": "10000"
+                }
+            ]
+        },
+        {
+            "stroke": 1,
+            "name": "CPUs",
+            "children": [
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                    "clock": "3200.0000",
+                    "stroke": 1,
+                    "architecture": "x86_64",
+                    "cores": 6,
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                    "threads per core": "1",
+                    "type": "cpu",
+                    "socket": 0
+                },
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                    "clock": "3200.0000",
+                    "stroke": 1,
+                    "architecture": "x86_64",
+                    "cores": 6,
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+                    "threads per core": "1",
+                    "type": "cpu",
+                    "socket": 1
+                }
+            ]
+        },
+        {
+            "stroke": 1,
+            "total": "131922836 kB",
+            "name": "Memory"
+        }
+    ]
+}
