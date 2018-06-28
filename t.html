@@ -9,44 +9,37 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-<section class="container">
+
+  <body>
+
+<!-- load the d3.js library -->	
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3-collection.v1.min.js"></script>
 
 
-<div class="btn-group">
-<button class="btn default" onclick="exp()">EXPAND</button>
-<button class="btn default" onclick="col()">COLLAPSE</button>
-<button class="btn default" onclick="gbt()">GBT</button>
-<button class="btn default" onclick="digi()">Digilab</button>
-<button class="btn default" onclick="parkes()">Parkes</button>
-<button class="btn default" onclick="home()">Home</button>
- 
-</div>
- <div class="btn-group" position="relative">
-
+<!--<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>-->
 <button class="btn disk" onmouseover= "highlight('disk')" onmouseout="highlight(null)">Disks</button>
 <button class="btn nic" onmouseover= "highlight('nic')" onmouseout="highlight(null)">NICs</button>
 <button class="btn cpu" onmouseover= "highlight('cpu')" onmouseout="highlight(null)">CPUs</button>
 <button class="btn gpu" onmouseover= "highlight('gpu')" onmouseout="highlight(null)">GPUs</button>
-</div>
-<!-- load the d3.js library -->	
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="https://d3js.org/d3-collection.v1.min.js"></script>
- <body >
-
+<button class="btn default" onclick="exp()">EXPAND</button>
+<button class="btn default" onclick="col()">COLLAPSE</button>
+<button class="btn default" onclick="gbt()">GBT</button>
+<button class="btn default" onclick="digi()">Digilab</button>
+<button class="btn default" onclick="home()">Home</button>
 <script>
-
-
+onmouseout="highlight(null)"
+	
 var margin = {top: 20, right: 120, bottom: 20, left: 100},
-	width = 1000 - margin.right - margin.left,
-	height = 800 - margin.top - margin.bottom;
+	width = 1260 - margin.right - margin.left,
+	height = 1200 - margin.top - margin.bottom;
 
 // ************** Generate the tree diagram	 *****************var nic = "rgba(85, 98, 112, 1)";
-var colors = {"nic":"rgba(85, 98, 112, 1)", "gpu":"rgba(78, 205, 196, 1)", "disk":"rgba(141, 225, 88, 1)", 
-				"mem":"rgba(196, 77, 88, 1)", "cpu":"rgba(245, 149, 120, 1)"}
-var colors_stroke = {"NICs":"rgba(85, 98, 112, 1)", "GPUs":"rgba(78, 205, 196, 1)", "Disks":"rgba(141, 225, 88, 1)", 
-				"Memory":"rgba(196, 77, 88, 1)", "CPUs":"rgba(245, 149, 120, 1)"}
-var leaf_types = ["nic", "gpu", "disk", "mem","cpu"]
-
+var nic = "rgba(85, 98, 112, 1)";
+var cpu = "rgba(78, 205, 196, 1)";
+var disk = "rgba(141, 225, 88, 1)";
+var mem = "rgba(196, 77, 88, 1)";
+var gpu = "rgba(245, 149, 120, 1)";
 var i = 0,
 	duration = 750,
 	root;
@@ -85,23 +78,20 @@ d3.json("tree_data.json", function(error, flare) {
   root.children.forEach(collapse);
   update(root);
 });
-function expand(d){
-    if(d._children){
-        d.children = d._children;
-        d._children = null;
-    }
-    if(d.children){
-        
-        d.children.filter(function(x) { return getDepth(root) >= x.depth ; })
-                  .forEach(expand);
-    }
-}  
-    
- //   if(children)
-   //   children.forEach(expand);
 
+function expand(d){   
+    var children = (d.children)?d.children:d._children;
+    if (d._children ) { 
+           
+        d.children = d._children;
+        d._children = null; 
+        
+    }
+    if(children)
+   	  children.forEach(expand);
+}
 function exp(){
-	expand(root);
+	expand1(root);
 	update(root) 
 }
 function collapse(d) {
@@ -111,22 +101,8 @@ function collapse(d) {
       d.children = null;
     }
   }
-function toggleAll(d) {
-    if (d.children) {
-        d.children.filter(function(x) { return getDepth(root) >= x.depth ; })
-                  .forEach(expand);
-     	d._children = d.children;
-      
-      d.children = null;
-    }
-}
-   //getDepth(root) == d.depth ){
-    	
-        
-    
-
   function col(){
-	toggleAll(root);
+	collapse(root);
 	update(root) 
 }
 function gbt(){
@@ -136,11 +112,6 @@ function gbt(){
   }
  function digi(){
  	root = d3.saveRoot;
-  	root = root.children[2];
-  	update(root)
-  }
-  function parkes(){
- 	root = d3.saveRoot;
   	root = root.children[1];
   	update(root)
   }
@@ -149,21 +120,43 @@ function gbt(){
  	update(root)
  }
 function get_color(d){
-	console.log(d.type, " : d.type")
-	return d.type in colors? colors[d.type]: '#fff';
+	
+	switch(d.type) {
+	    case 'nic':
+	        return nic;
+	    case 'cpu':
+	        return cpu;
+	    case 'disk':
+	        return disk;
+	    case 'mem':
+	        return mem;
+	    case 'gpu':
+	        return gpu;
+	    default:
+	    	return "#fff"
+	}
 	
 }
 function get_stroke(d){
-	console.log(d.name in colors_stroke)
-	if(d.name in colors_stroke){
-		return colors_stroke[d.name];
-	}
-    else if(d.children || d._children ){
-    	return "lightsteelblue";
-    }else{
-    	return "#fff";
-    }
 	
+	switch(d.name) {
+	    case 'NICs':
+	        return nic;
+	    case 'CPUs':
+	        return cpu;
+	    case 'Disks':
+	        return disk;
+	    case 'Memory':
+	        return 'purple';
+	    case 'GPUs':
+	        return gpu;
+	    default:
+	    if(d.children || d._children ){
+	    	return "lightgrey";
+	    }else{
+	    	return "#fff"
+	    }
+	}
 	
 }
 var to_display = ["name", "model", "serial", "speed", "make", "diskID", "amount", "ip", "clock", "cores"];
@@ -183,13 +176,11 @@ const getDepth = ({ children }) => 1 +
     (children ? Math.max(...children.map(getDepth)) : 0)
 
 function update(source) {
-	 var newHeight = Math.max(tree.nodes(root).reverse().length * 40, height);
+	 var newHeight = Math.max(tree.nodes(root).reverse().length * 20, height);
 	//console.log(getDepth(root))
-	var newWidth = Math.max(getDepth(root)*250, width)
-	console.log(newWidth)
-	console.log (width, newWidth, getDepth(root)*251)
+	var newWidth = Math.max(getDepth(root)*300, width)
+	
   d3.select("body svg")
-
     .attr("width", newWidth + margin.right + margin.left)
     .attr("height", newHeight + margin.top + margin.bottom);
 
@@ -204,7 +195,7 @@ function update(source) {
 //	  links = tree.links(nodes);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 250; });
+  nodes.forEach(function(d) { d.y = d.depth * 200; });
   
 
   // Update the nodes…
@@ -218,41 +209,30 @@ function update(source) {
 	  .on("click", click)
 	  .on("dblclick", dblClick)
 	  .on("mouseover", function(d) {
-	  	//console.log(d)
-	  	
-	  	//console.log(d.tt_info)
-       if (d.tt_info){
+        if (d.tt_info){
         	div.transition()
-        	
-          .delay(function(x){ return d.children || d._children ? 100: 100;})
-          .style("opacity", .8)
-          .attr("z-index", "-99")
-          //console.log(typeof(d.tt_info))
-       	   div.html(function(x){
-       	   	return typeof(d.tt_info) == 'string'? d.tt_info : d.tt_info.join("<br>");
-       	   })
-       	   .style("left", (d3.event.pageX +30) + "px")		
-           .style("top", (d3.event.pageY - 40) + "px");	
-          //.style("top", (eventPageX) + "px")// function(c){
-          	//return d.childred || d._children ? (d.x+70)+"px": (d.x+130)+"px";})
-          //.style("left",(d.y+100)+"px");
-       }})
+          //.duration(500)
+          .delay(1000)
+          .style("opacity", .9);
+        div.html(d.tt_info.join("\r\n"))/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+          .style("left", d.y+ 90 + "px")
+          .style("top", d.x  + 10+ "px");
+        }})
       .on("mouseout", function(d) {
         div.transition()
-          .duration(500)
-          
-          .style("opacity", 0)
-          .attr("z-index", "-99");
+          .duration(100)
+          .style("opacity", 0);
         });
    
 
   nodeEnter.append("circle")
 	 // .attr("r", 5)
     .attr("r", 10)
-	  .style("fill", function(d)  { return d._children ? get_stroke(d) : 'lightgrey'; });
+	  .style("fill", function(d)  { return d._children ? get_stroke(d) : '#fff'; });
 
   nodeEnter.append("text")
-	  .attr("x", function(d) { return d.children || d._children ? - (30 - (d.depth*3))  : (30 - (d.depth*3)); })
+	  .attr("x", function(d) { return d.children || d._children ? - (30 - (d.depth*2))  : (30 - (d.depth*2)); })
 	  .attr("dy", ".35em")
 	  .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
 	  .text(function(d) { return d.name ? d.name : d.hostname ; })
@@ -268,17 +248,16 @@ function update(source) {
 	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-    .attr("r", function(d) { return (5 - (d.depth/4)) * 5 })
-
+    .attr("r", function(d) { return (5 - (d.depth/2)) * 5 })
 	 // .attr("r", 10)
 	 //.attr('class', function(d) { return d.type;});
 	  .style("fill", function(d) { return d._children ? get_stroke(d) : get_color(d); })
-	  .style("stroke",function(d) { return d._children ? "#fff":get_stroke(d) });
+	  .style("stroke",function(d) { return get_stroke(d) });
  // nodeUpdate.select("circle")
   //	.attr('class', function(d) { return ""+d.type;});
 
   nodeUpdate.select("text")
-  	//.attr("class", "noselect")
+  	.attr("class", "noselect")
 	  .style("fill-opacity", 1);
 
   // Transition exiting nodes to the parent's new position.
@@ -361,7 +340,7 @@ function highlight(type) {
 }
 // Toggle children on click.
 function click(d) {
-	//console.log(d)
+	console.log(d)
   if (d.children) {
 	d._children = d.children;
 	d.children = null;
@@ -371,42 +350,19 @@ function click(d) {
   }
   update(d);
 }
-
-// function dblClick(d) {
-// 	console.log("doubleclick", d.children_hardware);
-// 	root = d
-// 	// temp = d.children_hardware;
-// 	// d.children_hardware = d.children;
-// 	// d.children = temp;
-	
-// 	// tempx = d.x
-// 	// click(d);
-// 	// d.x0 = tempx
-// 	// click(d);
-//  //  	d.children.forEach(collapse);
-  
-//   update(d);
-    
-    
-// }
-
 function dblClick(d) {
 	console.log("doubleclick", d.children_hardware);
 	
-	if(d.children_hardware){
-		temp = d.children_hardware;
-		d.children_hardware = d.children;
-		d.children = temp;
-		
-		tempx = d.x
-		click(d);
-		d.x0 = tempx
-		click(d);
-	  	d.children.forEach(collapse);
-	  }
-	  else{
-	  	root = d
-	  }
+	temp = d.children_hardware;
+	d.children_hardware = d.children;
+	d.children = temp;
+	
+	tempx = d.x
+	click(d);
+	d.x0 = tempx
+	click(d);
+  	d.children.forEach(collapse);
+  
   update(d);
     
     
@@ -425,6 +381,3 @@ function toggle(d) {
 
 
 
-</section>
-
-<button class="btn2 default" onclick="window.location.href='./table.html'">Table</button> 

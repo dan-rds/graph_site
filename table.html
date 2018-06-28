@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <style>
+            table {
+                width: 90%;
+                border-collapse: collapse;
+                //border: 0.1px black solid;
+                
+            }
+
+            td {
+
+                border: 0px black solid;
+                padding: 5px;
+                font: 12px sans-serif;
+            }
+            th {
+
+                //border: 1px black solid;
+                padding: 5px;
+                font: 15px sans-serif;
+                text-align: left;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="btn-group">
+     <button class="btn disk" onclick="toggle('Disks')">Disks</button>
+     
+<button class="btn nic" onclick="toggle('NICs')">NICs</button>
+<button class="btn gpu" onclick= "toggle('GPUs')">GPUs</button>
+<button class="btn cpu" onclick="toggle('CPUs')" >CPUs</button> 
+<button class="btn default" onclick= "toggle('Memory')">Memory</button>
+<button class="btn default" onclick= "toggle('SYS')">Systems</button>
+</div>  
+    </head>
+    <body id='b'>
+        <div id='tab' style='display:none;'></div>
+    </body>
+        <script type="text/javascript"charset="utf-8">
+        function toggle(ar) {
+            //var x = document.getElementById("tab");
+            d3.select("body").selectAll("table").remove();
+                //$('body').remove('.tr');
+            t(ar)
+
+        };
+         
+            function t(name) {
+            var body = d3.select("body");
+
+            d3.csv(name + ".csv", function(datasetText) {
+
+              var headers = Object.keys(datasetText[0]);
+
+              var table = body.append('table')
+              var thead = table.append('thead')
+                var tbody = table.append('tbody');
+                
+                var head = thead.selectAll('th')
+                    .data(headers)
+                    .enter()
+                    .append('th')
+                    .text(function (d) { return d; });
+                    
+                var rows = tbody.selectAll('tr')
+                      .data(datasetText)
+                      .enter()
+                      .append('tr');
+                      
+                var cells = rows.selectAll('td')
+            .data(function (d) {
+                        return Object.values(d);
+                      })
+                      .enter()
+                      .append('td')
+                        .text(function (d) { return d; });
+
+
+            });};
+       
+        </script>
+    </body>
+</html>

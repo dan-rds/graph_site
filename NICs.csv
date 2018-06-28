@@ -1,0 +1,520 @@
+dns_server,name,ip,mac,Path,speed
+ ,docker0,172.17.0.1,02:42:49:b6:df:88,Digilab --> blc01,
+blc01.bl.pvt,eth0,10.0.1.111,ac:1f:6b:2d:03:f8,Digilab --> blc01,1000.0
+ ,eth1, ,ac:1f:6b:2d:03:f9,Digilab --> blc01,
+ ,eth2, ,ac:1f:6b:2d:03:fa,Digilab --> blc01,
+ ,eth3, ,ac:1f:6b:2d:03:fb,Digilab --> blc01,
+blc01-4.tenge.pvt,eth4,10.10.10.6,02:02:0a:0a:0a:06,Digilab --> blc01,-1.0
+blc01-5.tenge.pvt,eth5,10.10.10.134,02:02:0a:0a:0a:86,Digilab --> blc01,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Digilab --> blc01,
+blc20.bl.pvt,eth0,10.0.1.77,0c:c4:7a:8e:44:cc,Parkes --> blc20,1000.0
+ ,eth1, ,0c:c4:7a:8e:44:cd,Parkes --> blc20,
+ ,eth2, ,0c:c4:7a:8e:44:ce,Parkes --> blc20,
+ ,eth3, ,0c:c4:7a:8e:44:cf,Parkes --> blc20,
+blc20-4.tenge.pvt,eth4,10.10.10.7,02:02:0a:0a:0a:07,Parkes --> blc20,10000.0
+blc20-5.tenge.pvt,eth5,10.10.10.135,02:02:0a:0a:0a:87,Parkes --> blc20,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc20,
+blc21.bl.pvt,eth0,10.0.1.78,0c:c4:7a:8e:c5:28,Parkes --> blc21,1000.0
+ ,eth1, ,0c:c4:7a:8e:c5:29,Parkes --> blc21,
+ ,eth2, ,0c:c4:7a:8e:c5:2a,Parkes --> blc21,
+ ,eth3, ,0c:c4:7a:8e:c5:2b,Parkes --> blc21,
+blc21-4.tenge.pvt,eth4,10.10.10.8,02:02:0a:0a:0a:08,Parkes --> blc21,10000.0
+blc21-5.tenge.pvt,eth5,10.10.10.136,02:02:0a:0a:0a:88,Parkes --> blc21,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc21,
+ ,docker0,172.17.0.1,02:42:06:bf:57:87,Digilab --> blc00,
+blc00.bl.pvt,eth0,10.0.1.75,0c:c4:7a:8e:0b:ac,Digilab --> blc00,1000.0
+ ,eth1, ,0c:c4:7a:8e:0b:ad,Digilab --> blc00,
+ ,eth2, ,0c:c4:7a:8e:0b:ae,Digilab --> blc00,
+ ,eth3, ,0c:c4:7a:8e:0b:af,Digilab --> blc00,
+localhost.bl.pvt,lo,127.0.0.1, ,Digilab --> blc00,
+ ,docker0,172.17.0.1,02:42:8a:99:32:83,Digilab --> blc02,
+blc02.bl.pvt,eth0,10.0.1.112,ac:1f:6b:2d:01:f0,Digilab --> blc02,1000.0
+ ,eth1, ,ac:1f:6b:2d:01:f1,Digilab --> blc02,
+ ,eth2, ,ac:1f:6b:2d:01:f2,Digilab --> blc02,
+ ,eth3, ,ac:1f:6b:2d:01:f3,Digilab --> blc02,
+localhost.bl.pvt,lo,127.0.0.1, ,Digilab --> blc02,
+blc23.bl.pvt,eth0,10.0.1.97,ac:1f:6b:2c:00:e0,Parkes --> blc23,1000.0
+ ,eth1, ,ac:1f:6b:2c:00:e1,Parkes --> blc23,
+ ,eth2, ,ac:1f:6b:2c:00:e2,Parkes --> blc23,
+ ,eth3, ,ac:1f:6b:2c:00:e3,Parkes --> blc23,
+blc23-4.tenge.pvt,eth4,10.10.10.27,02:02:0a:0a:0a:1b,Parkes --> blc23,10000.0
+blc23-5.tenge.pvt,eth5,10.10.10.155,02:02:0a:0a:0a:9b,Parkes --> blc23,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc23,
+blc22.bl.pvt,eth0,10.0.1.79,0c:c4:7a:8e:78:6c,Parkes --> blc22,1000.0
+ ,eth1, ,0c:c4:7a:8e:78:6d,Parkes --> blc22,
+ ,eth2, ,0c:c4:7a:8e:78:6e,Parkes --> blc22,
+ ,eth3, ,0c:c4:7a:8e:78:6f,Parkes --> blc22,
+blc22-4.tenge.pvt,eth4,10.10.10.9,02:02:0a:0a:0a:09,Parkes --> blc22,10000.0
+blc22-5.tenge.pvt,eth5,10.10.10.137,02:02:0a:0a:0a:89,Parkes --> blc22,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc22,
+blc32.bl.pvt,eth0,10.0.1.76,0c:c4:7a:8e:4b:a4,Parkes --> blc32,1000.0
+ ,eth1, ,0c:c4:7a:8e:4b:a5,Parkes --> blc32,
+ ,eth2, ,0c:c4:7a:8e:4b:a6,Parkes --> blc32,
+ ,eth3, ,0c:c4:7a:8e:4b:a7,Parkes --> blc32,
+blc32-4.tenge.pvt,eth4,10.10.10.6,02:02:0a:0a:0a:06,Parkes --> blc32,10000.0
+blc32-5.tenge.pvt,eth5,10.10.10.134,02:02:0a:0a:0a:86,Parkes --> blc32,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc32,
+blc26.bl.pvt,eth0,10.0.1.100,0c:c4:7a:eb:ac:4c,Parkes --> blc26,1000.0
+ ,eth1, ,0c:c4:7a:eb:ac:4d,Parkes --> blc26,
+ ,eth2, ,0c:c4:7a:eb:ac:4e,Parkes --> blc26,
+ ,eth3, ,0c:c4:7a:eb:ac:4f,Parkes --> blc26,
+blc26-4.tenge.pvt,eth4,10.10.10.30,02:02:0a:0a:0a:1e,Parkes --> blc26,10000.0
+blc26-5.tenge.pvt,eth5,10.10.10.158,02:02:0a:0a:0a:9e,Parkes --> blc26,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc26,
+blc27.bl.pvt,eth0,10.0.1.101,ac:1f:6b:2c:00:58,Parkes --> blc27,1000.0
+ ,eth1, ,ac:1f:6b:2c:00:59,Parkes --> blc27,
+ ,eth2, ,ac:1f:6b:2c:00:5a,Parkes --> blc27,
+ ,eth3, ,ac:1f:6b:2c:00:5b,Parkes --> blc27,
+blc27-4.tenge.pvt,eth4,10.10.10.31,02:02:0a:0a:0a:1f,Parkes --> blc27,10000.0
+blc27-5.tenge.pvt,eth5,10.10.10.159,02:02:0a:0a:0a:9f,Parkes --> blc27,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc27,
+bl-head.atnf.csiro.au,eth0,130.155.181.233,00:25:90:fb:92:b4,Parkes --> blh0,1000.0
+blh0.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:b5,Parkes --> blh0,10000.0
+ ,eth2, ,00:25:90:fb:92:b6,Parkes --> blh0,
+ ,eth3, ,00:25:90:fb:92:b7,Parkes --> blh0,
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blh0,
+ ,tun0,10.254.254.3,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,Parkes --> blh0,10.0
+blc25.bl.pvt,eth0,10.0.1.99,0c:c4:7a:eb:b1:cc,Parkes --> blc25,1000.0
+ ,eth1, ,0c:c4:7a:eb:b1:cd,Parkes --> blc25,
+ ,eth2, ,0c:c4:7a:eb:b1:ce,Parkes --> blc25,
+ ,eth3, ,0c:c4:7a:eb:b1:cf,Parkes --> blc25,
+blc25-4.tenge.pvt,eth4,10.10.10.29,02:02:0a:0a:0a:1d,Parkes --> blc25,10000.0
+blc25-5.tenge.pvt,eth5,10.10.10.157,02:02:0a:0a:0a:9d,Parkes --> blc25,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc25,
+blc31.bl.pvt,eth0,10.0.1.75,0c:c4:7a:8e:c2:bc,Parkes --> blc31,1000.0
+ ,eth1, ,0c:c4:7a:8e:c2:bd,Parkes --> blc31,
+ ,eth2, ,0c:c4:7a:8e:c2:be,Parkes --> blc31,
+ ,eth3, ,0c:c4:7a:8e:c2:bf,Parkes --> blc31,
+blc31-4.tenge.pvt,eth4,10.10.10.5,02:02:0a:0a:0a:05,Parkes --> blc31,10000.0
+blc31-5.tenge.pvt,eth5,10.10.10.133,02:02:0a:0a:0a:85,Parkes --> blc31,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc31,
+blc30.bl.pvt,eth0,10.0.1.74,0c:c4:7a:bd:83:9c,Parkes --> blc30,1000.0
+ ,eth1, ,0c:c4:7a:bd:83:9d,Parkes --> blc30,
+ ,eth2, ,0c:c4:7a:bd:83:9e,Parkes --> blc30,
+ ,eth3, ,0c:c4:7a:bd:83:9f,Parkes --> blc30,
+blc30-4.tenge.pvt,eth4,10.10.10.4,02:02:0a:0a:0a:04,Parkes --> blc30,10000.0
+blc30-5.tenge.pvt,eth5,10.10.10.132,02:02:0a:0a:0a:84,Parkes --> blc30,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc30,
+blc24.bl.pvt,eth0,10.0.1.98,ac:1f:6b:2c:01:70,Parkes --> blc24,1000.0
+ ,eth1, ,ac:1f:6b:2c:01:71,Parkes --> blc24,
+ ,eth2, ,ac:1f:6b:2c:01:72,Parkes --> blc24,
+ ,eth3, ,ac:1f:6b:2c:01:73,Parkes --> blc24,
+blc24-4.tenge.pvt,eth4,10.10.10.28,02:02:0a:0a:0a:1c,Parkes --> blc24,10000.0
+blc24-5.tenge.pvt,eth5,10.10.10.156,02:02:0a:0a:0a:9c,Parkes --> blc24,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc24,
+bls4.bl.pvt,eth0,10.0.1.111,ac:1f:6b:2d:04:04,Gbt --> bls4,1000.0
+ ,eth1, ,ac:1f:6b:2d:04:05,Gbt --> bls4,
+ ,eth2, ,ac:1f:6b:2d:04:06,Gbt --> bls4,
+ ,eth3, ,ac:1f:6b:2d:04:07,Gbt --> bls4,
+bls4-10-0.gb.nrao.edu,eth4,10.17.2.108,02:02:0a:11:02:6c,Gbt --> bls4,10000.0
+ ,eth5, ,ec:0d:9a:22:9e:61,Gbt --> bls4,
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> bls4,
+blc03.bl.pvt,eth0,10.0.1.77,0c:c4:7a:ba:cc:18,Gbt --> blc03,1000.0
+ ,eth1, ,0c:c4:7a:ba:cc:19,Gbt --> blc03,
+ ,eth2, ,0c:c4:7a:ba:cc:1a,Gbt --> blc03,
+ ,eth3, ,0c:c4:7a:ba:cc:1b,Gbt --> blc03,
+blc03-10-0.gb.nrao.edu,eth4,10.17.2.19,02:02:0a:11:02:13,Gbt --> blc03,10000.0
+blc03-10-1.gb.nrao.edu,eth5,10.17.2.147,02:02:0a:11:02:93,Gbt --> blc03,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc03,
+blc17.bl.pvt,eth0,10.0.1.91,0c:c4:7a:8e:0e:40,Gbt --> blc17,1000.0
+ ,eth1, ,0c:c4:7a:8e:0e:41,Gbt --> blc17,
+ ,eth2, ,0c:c4:7a:8e:0e:42,Gbt --> blc17,
+ ,eth3, ,0c:c4:7a:8e:0e:43,Gbt --> blc17,
+blc17-10-0.gb.nrao.edu,eth4,10.17.2.31,02:02:0a:11:02:1f,Gbt --> blc17,10000.0
+blc17-10-1.gb.nrao.edu,eth5,10.17.2.159,02:02:0a:11:02:9f,Gbt --> blc17,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc17,
+blc16.bl.pvt,eth0,10.0.1.88,0c:c4:7a:8e:06:18,Gbt --> blc16,1000.0
+ ,eth1, ,0c:c4:7a:8e:06:19,Gbt --> blc16,
+ ,eth2, ,0c:c4:7a:8e:06:1a,Gbt --> blc16,
+ ,eth3, ,0c:c4:7a:8e:06:1b,Gbt --> blc16,
+blc16-10-0.gb.nrao.edu,eth4,10.17.2.30,02:02:0a:11:02:1e,Gbt --> blc16,10000.0
+blc16-10-1.gb.nrao.edu,eth5,10.17.2.158,02:02:0a:11:02:9e,Gbt --> blc16,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc16,
+blc02.bl.pvt,eth0,10.0.1.76,0c:c4:7a:ba:cc:30,Gbt --> blc02,1000.0
+ ,eth1, ,0c:c4:7a:ba:cc:31,Gbt --> blc02,
+ ,eth2, ,0c:c4:7a:ba:cc:32,Gbt --> blc02,
+ ,eth3, ,0c:c4:7a:ba:cc:33,Gbt --> blc02,
+blc02-10-0.gb.nrao.edu,eth4,10.17.2.18,02:02:0a:11:02:12,Gbt --> blc02,10000.0
+blc02-10-1.gb.nrao.edu,eth5,10.17.2.146,02:02:0a:11:02:92,Gbt --> blc02,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc02,
+blc14.bl.pvt,eth0,10.0.1.86,0c:c4:7a:8e:06:3c,Gbt --> blc14,1000.0
+ ,eth1, ,0c:c4:7a:8e:06:3d,Gbt --> blc14,
+ ,eth2, ,0c:c4:7a:8e:06:3e,Gbt --> blc14,
+ ,eth3, ,0c:c4:7a:8e:06:3f,Gbt --> blc14,
+blc14-10-0.gb.nrao.edu,eth4,10.17.2.28,02:02:0a:11:02:1c,Gbt --> blc14,10000.0
+blc14-10-1.gb.nrao.edu,eth5,10.17.2.156,02:02:0a:11:02:9c,Gbt --> blc14,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc14,
+blc00.bl.pvt,eth0,10.0.1.71,0c:c4:7a:bd:08:24,Gbt --> blc00,1000.0
+ ,eth1, ,0c:c4:7a:bd:08:25,Gbt --> blc00,
+ ,eth2, ,0c:c4:7a:bd:08:26,Gbt --> blc00,
+ ,eth3, ,0c:c4:7a:bd:08:27,Gbt --> blc00,
+blc00-10-0.gb.nrao.edu,eth4,10.17.2.16,02:02:0a:11:02:10,Gbt --> blc00,10000.0
+blc00-10-1.gb.nrao.edu,eth5,10.17.2.144,02:02:0a:11:02:90,Gbt --> blc00,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc00,
+blc01.bl.pvt,eth0,10.0.1.75,0c:c4:7a:ba:cb:90,Gbt --> blc01,1000.0
+ ,eth1, ,0c:c4:7a:ba:cb:91,Gbt --> blc01,
+ ,eth2, ,0c:c4:7a:ba:cb:92,Gbt --> blc01,
+ ,eth3, ,0c:c4:7a:ba:cb:93,Gbt --> blc01,
+blc01-10-0.gb.nrao.edu,eth4,10.17.2.17,02:02:0a:11:02:11,Gbt --> blc01,10000.0
+blc01-10-1.gb.nrao.edu,eth5,10.17.2.145,02:02:0a:11:02:91,Gbt --> blc01,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc01,
+blc15.bl.pvt,eth0,10.0.1.87,0c:c4:7a:8e:04:e0,Gbt --> blc15,1000.0
+ ,eth1, ,0c:c4:7a:8e:04:e1,Gbt --> blc15,
+ ,eth2, ,0c:c4:7a:8e:04:e2,Gbt --> blc15,
+ ,eth3, ,0c:c4:7a:8e:04:e3,Gbt --> blc15,
+blc15-10-0.gb.nrao.edu,eth4,10.17.2.29,02:02:0a:11:02:1d,Gbt --> blc15,10000.0
+blc15-10-1.gb.nrao.edu,eth5,10.17.2.157,02:02:0a:11:02:9d,Gbt --> blc15,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc15,
+bls2.bl.pvt,eth0,10.0.1.93,0c:c4:7a:8e:7a:18,Gbt --> bls2,1000.0
+ ,eth1, ,0c:c4:7a:8e:7a:19,Gbt --> bls2,
+ ,eth2, ,0c:c4:7a:8e:7a:1a,Gbt --> bls2,
+ ,eth3, ,0c:c4:7a:8e:7a:1b,Gbt --> bls2,
+bls2-10-0.gb.nrao.edu,eth4,10.17.2.106,02:02:0a:11:02:6a,Gbt --> bls2,10000.0
+bls2-10-1.gb.nrao.edu,eth5,10.17.2.134,02:02:0a:11:02:86,Gbt --> bls2,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> bls2,
+blc11.bl.pvt,eth0,10.0.1.89,0c:c4:7a:8e:06:34,Gbt --> blc11,1000.0
+ ,eth1, ,0c:c4:7a:8e:06:35,Gbt --> blc11,
+ ,eth2, ,0c:c4:7a:8e:06:36,Gbt --> blc11,
+ ,eth3, ,0c:c4:7a:8e:06:37,Gbt --> blc11,
+blc11-10-0.gb.nrao.edu,eth4,10.17.2.25,02:02:0a:11:02:19,Gbt --> blc11,10000.0
+blc11-10-1.gb.nrao.edu,eth5,10.17.2.153,02:02:0a:11:02:99,Gbt --> blc11,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc11,
+blc05.bl.pvt,eth0,10.0.1.79,0c:c4:7a:ba:cb:98,Gbt --> blc05,1000.0
+ ,eth1, ,0c:c4:7a:ba:cb:99,Gbt --> blc05,
+ ,eth2, ,0c:c4:7a:ba:cb:9a,Gbt --> blc05,
+ ,eth3, ,0c:c4:7a:ba:cb:9b,Gbt --> blc05,
+blc05-10-0.gb.nrao.edu,eth4,10.17.2.21,02:02:0a:11:02:15,Gbt --> blc05,10000.0
+blc05-10-1.gb.nrao.edu,eth5,10.17.2.149,02:02:0a:11:02:95,Gbt --> blc05,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc05,
+ ,docker0,172.17.0.1,02:42:e6:0f:eb:67,Digilab --> bls0,
+bls0.bl.pvt,eth0,10.0.1.72,0c:c4:7a:bc:96:bc,Digilab --> bls0,1000.0
+ ,eth1, ,0c:c4:7a:bc:96:bd,Digilab --> bls0,
+ ,eth2, ,0c:c4:7a:bc:96:be,Digilab --> bls0,
+ ,eth3, ,0c:c4:7a:bc:96:bf,Digilab --> bls0,
+bls0-4.tenge.pvt,eth4,10.10.10.2,02:02:0a:0a:0a:02,Digilab --> bls0,-1.0
+bls0-5.tenge.pvt,eth5,10.10.10.130,02:02:0a:0a:0a:82,Digilab --> bls0,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Digilab --> bls0,
+blc04.bl.pvt,eth0,10.0.1.78,0c:c4:7a:ba:cc:38,Gbt --> blc04,1000.0
+ ,eth1, ,0c:c4:7a:ba:cc:39,Gbt --> blc04,
+ ,eth2, ,0c:c4:7a:ba:cc:3a,Gbt --> blc04,
+ ,eth3, ,0c:c4:7a:ba:cc:3b,Gbt --> blc04,
+blc04-10-0.gb.nrao.edu,eth4,10.17.2.20,02:02:0a:11:02:14,Gbt --> blc04,10000.0
+blc04-10-1.gb.nrao.edu,eth5,10.17.2.148,02:02:0a:11:02:94,Gbt --> blc04,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc04,
+blc10.bl.pvt,eth0,10.0.1.90,0c:c4:7a:8e:0c:ec,Gbt --> blc10,1000.0
+ ,eth1, ,0c:c4:7a:8e:0c:ed,Gbt --> blc10,
+ ,eth2, ,0c:c4:7a:8e:0c:ee,Gbt --> blc10,
+ ,eth3, ,0c:c4:7a:8e:0c:ef,Gbt --> blc10,
+blc10-10-0.gb.nrao.edu,eth4,10.17.2.24,02:02:0a:11:02:18,Gbt --> blc10,10000.0
+blc10-10-1.gb.nrao.edu,eth5,10.17.2.152,02:02:0a:11:02:98,Gbt --> blc10,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc10,
+bls3.bl.pvt,eth0,10.0.1.94,0c:c4:7a:8e:70:c8,Gbt --> bls3,1000.0
+ ,eth1, ,0c:c4:7a:8e:70:c9,Gbt --> bls3,
+ ,eth2, ,0c:c4:7a:8e:70:ca,Gbt --> bls3,
+ ,eth3, ,0c:c4:7a:8e:70:cb,Gbt --> bls3,
+bls3-10-0.gb.nrao.edu,eth4,10.17.2.107,02:02:0a:11:02:6b,Gbt --> bls3,10000.0
+bls3-10-1.gb.nrao.edu,eth5,10.17.2.135,02:02:0a:11:02:87,Gbt --> bls3,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> bls3,
+bls1.bl.pvt,eth0,10.0.1.92,0c:c4:7a:8e:75:24,Gbt --> bls1,1000.0
+ ,eth1, ,0c:c4:7a:8e:75:25,Gbt --> bls1,
+ ,eth2, ,0c:c4:7a:8e:75:26,Gbt --> bls1,
+ ,eth3, ,0c:c4:7a:8e:75:27,Gbt --> bls1,
+bls1-10-0.gb.nrao.edu,eth4,10.17.2.105,02:02:0a:11:02:69,Gbt --> bls1,10000.0
+bls1-10-1.gb.nrao.edu,eth5,10.17.2.133,02:02:0a:11:02:85,Gbt --> bls1,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> bls1,
+blc06.bl.pvt,eth0,10.0.1.80,0c:c4:7a:ba:d0:b0,Gbt --> blc06,1000.0
+ ,eth1, ,0c:c4:7a:ba:d0:b1,Gbt --> blc06,
+ ,eth2, ,0c:c4:7a:ba:d0:b2,Gbt --> blc06,
+ ,eth3, ,0c:c4:7a:ba:d0:b3,Gbt --> blc06,
+blc06-10-0.gb.nrao.edu,eth4,10.17.2.22,02:02:0a:11:02:16,Gbt --> blc06,10000.0
+blc06-10-1.gb.nrao.edu,eth5,10.17.2.150,02:02:0a:11:02:96,Gbt --> blc06,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc06,
+blc12.bl.pvt,eth0,10.0.1.84,0c:c4:7a:8e:0c:e4,Gbt --> blc12,1000.0
+ ,eth1, ,0c:c4:7a:8e:0c:e5,Gbt --> blc12,
+ ,eth2, ,0c:c4:7a:8e:0c:e6,Gbt --> blc12,
+ ,eth3, ,0c:c4:7a:8e:0c:e7,Gbt --> blc12,
+blc12-10-0.gb.nrao.edu,eth4,10.17.2.26,02:02:0a:11:02:1a,Gbt --> blc12,10000.0
+blc12-10-1.gb.nrao.edu,eth5,10.17.2.154,02:02:0a:11:02:9a,Gbt --> blc12,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc12,
+blc13.bl.pvt,eth0,10.0.1.85,0c:c4:7a:8e:05:fc,Gbt --> blc13,1000.0
+ ,eth1, ,0c:c4:7a:8e:05:fd,Gbt --> blc13,
+ ,eth2, ,0c:c4:7a:8e:05:fe,Gbt --> blc13,
+ ,eth3, ,0c:c4:7a:8e:05:ff,Gbt --> blc13,
+blc13-10-0.gb.nrao.edu,eth4,10.17.2.27,02:02:0a:11:02:1b,Gbt --> blc13,10000.0
+blc13-10-1.gb.nrao.edu,eth5,10.17.2.155,02:02:0a:11:02:9b,Gbt --> blc13,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc13,
+blc07.bl.pvt,eth0,10.0.1.81,0c:c4:7a:ba:cb:7c,Gbt --> blc07,1000.0
+ ,eth1, ,0c:c4:7a:ba:cb:7d,Gbt --> blc07,
+ ,eth2, ,0c:c4:7a:ba:cb:7e,Gbt --> blc07,
+ ,eth3, ,0c:c4:7a:ba:cb:7f,Gbt --> blc07,
+blc07-10-0.gb.nrao.edu,eth4,10.17.2.23,02:02:0a:11:02:17,Gbt --> blc07,10000.0
+blc07-10-1.gb.nrao.edu,eth5,10.17.2.151,02:02:0a:11:02:97,Gbt --> blc07,10000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc07,
+bls0.bl.pvt,eth0,10.0.1.82,0c:c4:7a:bd:81:00,Gbt --> bls0,1000.0
+ ,eth1, ,0c:c4:7a:bd:81:01,Gbt --> bls0,
+ ,eth2, ,0c:c4:7a:bd:81:02,Gbt --> bls0,
+ ,eth3, ,0c:c4:7a:bd:81:03,Gbt --> bls0,
+bls0-10-0.gb.nrao.edu,eth4,10.17.2.104,02:02:0a:11:02:68,Gbt --> bls0,10000.0
+bls0-10-1.gb.nrao.edu,eth5,10.17.2.132,02:02:0a:11:02:84,Gbt --> bls0,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> bls0,
+blc22.bl.pvt,eth0,10.0.1.97,0c:c4:7a:8f:f1:bc,Gbt --> blc22,1000.0
+ ,eth1, ,0c:c4:7a:8f:f1:bd,Gbt --> blc22,
+ ,eth2, ,0c:c4:7a:8f:f1:be,Gbt --> blc22,
+ ,eth3, ,0c:c4:7a:8f:f1:bf,Gbt --> blc22,
+blc22-10-0.gb.nrao.edu,eth4,10.17.2.34,02:02:0a:11:02:22,Gbt --> blc22,10000.0
+blc22-10-1.gb.nrao.edu,eth5,10.17.2.162,02:02:0a:11:02:a2,Gbt --> blc22,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc22,
+blc36.bl.pvt,eth0,10.0.1.109,0c:c4:7a:8f:f7:34,Gbt --> blc36,1000.0
+ ,eth1, ,0c:c4:7a:8f:f7:35,Gbt --> blc36,
+ ,eth2, ,0c:c4:7a:8f:f7:36,Gbt --> blc36,
+ ,eth3, ,0c:c4:7a:8f:f7:37,Gbt --> blc36,
+blc36-10-0.gb.nrao.edu,eth4,10.17.2.46,02:02:0a:11:02:2e,Gbt --> blc36,10000.0
+blc36-10-1.gb.nrao.edu,eth5,10.17.2.174,02:02:0a:11:02:ae,Gbt --> blc36,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc36,
+blc37.bl.pvt,eth0,10.0.1.110,0c:c4:7a:88:55:44,Gbt --> blc37,1000.0
+ ,eth1, ,0c:c4:7a:88:55:45,Gbt --> blc37,
+ ,eth2, ,0c:c4:7a:88:55:46,Gbt --> blc37,
+ ,eth3, ,0c:c4:7a:88:55:47,Gbt --> blc37,
+blc37-10-0.gb.nrao.edu,eth4,10.17.2.47,02:02:0a:11:02:2f,Gbt --> blc37,10000.0
+blc37-10-1.gb.nrao.edu,eth5,10.17.2.175,02:02:0a:11:02:af,Gbt --> blc37,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc37,
+blc23.bl.pvt,eth0,10.0.1.98,0c:c4:7a:8f:fe:d8,Gbt --> blc23,1000.0
+ ,eth1, ,0c:c4:7a:8f:fe:d9,Gbt --> blc23,
+ ,eth2, ,0c:c4:7a:8f:fe:da,Gbt --> blc23,
+ ,eth3, ,0c:c4:7a:8f:fe:db,Gbt --> blc23,
+blc23-10-0.gb.nrao.edu,eth4,10.17.2.35,02:02:0a:11:02:23,Gbt --> blc23,10000.0
+blc23-10-1.gb.nrao.edu,eth5,10.17.2.163,02:02:0a:11:02:a3,Gbt --> blc23,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc23,
+blc35.bl.pvt,eth0,10.0.1.108,0c:c4:7a:8f:f7:2c,Gbt --> blc35,1000.0
+ ,eth1, ,0c:c4:7a:8f:f7:2d,Gbt --> blc35,
+ ,eth2, ,0c:c4:7a:8f:f7:2e,Gbt --> blc35,
+ ,eth3, ,0c:c4:7a:8f:f7:2f,Gbt --> blc35,
+blc35-10-0.gb.nrao.edu,eth4,10.17.2.45,02:02:0a:11:02:2d,Gbt --> blc35,10000.0
+blc35-10-1.gb.nrao.edu,eth5,10.17.2.173,02:02:0a:11:02:ad,Gbt --> blc35,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc35,
+blc21.bl.pvt,eth0,10.0.1.96,0c:c4:7a:88:54:30,Gbt --> blc21,1000.0
+ ,eth1, ,0c:c4:7a:88:54:31,Gbt --> blc21,
+ ,eth2, ,0c:c4:7a:88:54:32,Gbt --> blc21,
+ ,eth3, ,0c:c4:7a:88:54:33,Gbt --> blc21,
+blc21-10-0.gb.nrao.edu,eth4,10.17.2.33,02:02:0a:11:02:21,Gbt --> blc21,10000.0
+blc21-10-1.gb.nrao.edu,eth5,10.17.2.161,02:02:0a:11:02:a1,Gbt --> blc21,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc21,
+blc20.bl.pvt,eth0,10.0.1.95,0c:c4:7a:8f:f3:e0,Gbt --> blc20,1000.0
+ ,eth1, ,0c:c4:7a:8f:f3:e1,Gbt --> blc20,
+ ,eth2, ,0c:c4:7a:8f:f3:e2,Gbt --> blc20,
+ ,eth3, ,0c:c4:7a:8f:f3:e3,Gbt --> blc20,
+blc20-10-0.gb.nrao.edu,eth4,10.17.2.32,02:02:0a:11:02:20,Gbt --> blc20,10000.0
+blc20-10-1.gb.nrao.edu,eth5,10.17.2.160,02:02:0a:11:02:a0,Gbt --> blc20,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc20,
+blc34.bl.pvt,eth0,10.0.1.107,0c:c4:7a:8f:f3:ac,Gbt --> blc34,1000.0
+ ,eth1, ,0c:c4:7a:8f:f3:ad,Gbt --> blc34,
+ ,eth2, ,0c:c4:7a:8f:f3:ae,Gbt --> blc34,
+ ,eth3, ,0c:c4:7a:8f:f3:af,Gbt --> blc34,
+blc34-10-0.gb.nrao.edu,eth4,10.17.2.44,02:02:0a:11:02:2c,Gbt --> blc34,10000.0
+blc34-10-1.gb.nrao.edu,eth5,10.17.2.172,02:02:0a:11:02:ac,Gbt --> blc34,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc34,
+blc30.bl.pvt,eth0,10.0.1.103,0c:c4:7a:8f:f7:5c,Gbt --> blc30,1000.0
+ ,eth1, ,0c:c4:7a:8f:f7:5d,Gbt --> blc30,
+ ,eth2, ,0c:c4:7a:8f:f7:5e,Gbt --> blc30,
+ ,eth3, ,0c:c4:7a:8f:f7:5f,Gbt --> blc30,
+blc30-10-0.gb.nrao.edu,eth4,10.17.2.40,02:02:0a:11:02:28,Gbt --> blc30,10000.0
+blc30-10-1.gb.nrao.edu,eth5,10.17.2.168,02:02:0a:11:02:a8,Gbt --> blc30,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc30,
+blc24.bl.pvt,eth0,10.0.1.99,0c:c4:7a:8f:fe:e0,Gbt --> blc24,1000.0
+ ,eth1, ,0c:c4:7a:8f:fe:e1,Gbt --> blc24,
+ ,eth2, ,0c:c4:7a:8f:fe:e2,Gbt --> blc24,
+ ,eth3, ,0c:c4:7a:8f:fe:e3,Gbt --> blc24,
+blc24-10-0.gb.nrao.edu,eth4,10.17.2.36,02:02:0a:11:02:24,Gbt --> blc24,10000.0
+blc24-10-1.gb.nrao.edu,eth5,10.17.2.164,02:02:0a:11:02:a4,Gbt --> blc24,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc24,
+blc25.bl.pvt,eth0,10.0.1.100,0c:c4:7a:8f:f6:e8,Gbt --> blc25,1000.0
+ ,eth1, ,0c:c4:7a:8f:f6:e9,Gbt --> blc25,
+ ,eth2, ,0c:c4:7a:8f:f6:ea,Gbt --> blc25,
+ ,eth3, ,0c:c4:7a:8f:f6:eb,Gbt --> blc25,
+blc25-10-0.gb.nrao.edu,eth4,10.17.2.37,02:02:0a:11:02:25,Gbt --> blc25,10000.0
+blc25-10-1.gb.nrao.edu,eth5,10.17.2.165,02:02:0a:11:02:a5,Gbt --> blc25,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc25,
+blc31.bl.pvt,eth0,10.0.1.104,0c:c4:7a:8f:f3:14,Gbt --> blc31,1000.0
+ ,eth1, ,0c:c4:7a:8f:f3:15,Gbt --> blc31,
+ ,eth2, ,0c:c4:7a:8f:f3:16,Gbt --> blc31,
+ ,eth3, ,0c:c4:7a:8f:f3:17,Gbt --> blc31,
+blc31-10-0.gb.nrao.edu,eth4,10.17.2.41,02:02:0a:11:02:29,Gbt --> blc31,10000.0
+blc31-10-1.gb.nrao.edu,eth5,10.17.2.169,02:02:0a:11:02:a9,Gbt --> blc31,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc31,
+bl-head.gb.nrao.edu,eth0,10.16.98.99,00:25:90:fb:92:08,Gbt --> blh0,1000.0
+blh0.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:09,Gbt --> blh0,10000.0
+ ,eth2, ,00:25:90:fb:92:0a,Gbt --> blh0,
+ ,eth3, ,00:25:90:fb:92:0b,Gbt --> blh0,
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blh0,
+ ,tun0,10.254.254.2,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,Gbt --> blh0,10.0
+blc27.bl.pvt,eth0,10.0.1.102,0c:c4:7a:88:55:4c,Gbt --> blc27,1000.0
+ ,eth1, ,0c:c4:7a:88:55:4d,Gbt --> blc27,
+ ,eth2, ,0c:c4:7a:88:55:4e,Gbt --> blc27,
+ ,eth3, ,0c:c4:7a:88:55:4f,Gbt --> blc27,
+blc27-10-0.gb.nrao.edu,eth4,10.17.2.39,02:02:0a:11:02:27,Gbt --> blc27,10000.0
+blc27-10-1.gb.nrao.edu,eth5,10.17.2.167,02:02:0a:11:02:a7,Gbt --> blc27,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc27,
+blc33.bl.pvt,eth0,10.0.1.106,0c:c4:7a:8f:fe:dc,Gbt --> blc33,1000.0
+ ,eth1, ,0c:c4:7a:8f:fe:dd,Gbt --> blc33,
+ ,eth2, ,0c:c4:7a:8f:fe:de,Gbt --> blc33,
+ ,eth3, ,0c:c4:7a:8f:fe:df,Gbt --> blc33,
+blc33-10-0.gb.nrao.edu,eth4,10.17.2.43,02:02:0a:11:02:2b,Gbt --> blc33,10000.0
+blc33-10-1.gb.nrao.edu,eth5,10.17.2.171,02:02:0a:11:02:ab,Gbt --> blc33,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc33,
+acmeh2.digilab.pvt,eth0,10.11.0.153,00:25:90:fb:92:14,Digilab --> blh0,1000.0
+blh1.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:15,Digilab --> blh0,10000.0
+ ,eth2, ,00:25:90:fb:92:16,Digilab --> blh0,
+ ,eth3, ,00:25:90:fb:92:17,Digilab --> blh0,
+localhost.bl.pvt,lo,127.0.0.1, ,Digilab --> blh0,
+ ,tun0,10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,Digilab --> blh0,10.0
+blc32.bl.pvt,eth0,10.0.1.105,0c:c4:7a:8f:f6:c8,Gbt --> blc32,1000.0
+ ,eth1, ,0c:c4:7a:8f:f6:c9,Gbt --> blc32,
+ ,eth2, ,0c:c4:7a:8f:f6:ca,Gbt --> blc32,
+ ,eth3, ,0c:c4:7a:8f:f6:cb,Gbt --> blc32,
+blc32-10-0.gb.nrao.edu,eth4,10.17.2.42,02:02:0a:11:02:2a,Gbt --> blc32,10000.0
+blc32-10-1.gb.nrao.edu,eth5,10.17.2.170,02:02:0a:11:02:aa,Gbt --> blc32,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc32,
+blc26.bl.pvt,eth0,10.0.1.101,0c:c4:7a:8f:f6:bc,Gbt --> blc26,1000.0
+ ,eth1, ,0c:c4:7a:8f:f6:bd,Gbt --> blc26,
+ ,eth2, ,0c:c4:7a:8f:f6:be,Gbt --> blc26,
+ ,eth3, ,0c:c4:7a:8f:f6:bf,Gbt --> blc26,
+blc26-10-0.gb.nrao.edu,eth4,10.17.2.38,02:02:0a:11:02:26,Gbt --> blc26,10000.0
+blc26-10-1.gb.nrao.edu,eth5,10.17.2.166,02:02:0a:11:02:a6,Gbt --> blc26,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc26,
+blc01.bl.pvt,eth0,10.0.1.82,0c:c4:7a:eb:ac:54,Parkes --> blc01,1000.0
+ ,eth1, ,0c:c4:7a:eb:ac:55,Parkes --> blc01,
+ ,eth2, ,0c:c4:7a:eb:ac:56,Parkes --> blc01,
+ ,eth3, ,0c:c4:7a:eb:ac:57,Parkes --> blc01,
+blc01-4.tenge.pvt,eth4,10.10.10.12,02:02:0a:0a:0a:0c,Parkes --> blc01,10000.0
+blc01-5.tenge.pvt,eth5,10.10.10.140,02:02:0a:0a:0a:8c,Parkes --> blc01,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc01,
+blc15.bl.pvt,eth0,10.0.1.94,0c:c4:7a:eb:ad:44,Parkes --> blc15,1000.0
+ ,eth1, ,0c:c4:7a:eb:ad:45,Parkes --> blc15,
+ ,eth2, ,0c:c4:7a:eb:ad:46,Parkes --> blc15,
+ ,eth3, ,0c:c4:7a:eb:ad:47,Parkes --> blc15,
+blc15-4.tenge.pvt,eth4,10.10.10.24,02:02:0a:0a:0a:18,Parkes --> blc15,10000.0
+blc15-5.tenge.pvt,eth5,10.10.10.152,02:02:0a:0a:0a:98,Parkes --> blc15,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc15,
+blc14.bl.pvt,eth0,10.0.1.93,0c:c4:7a:eb:af:5c,Parkes --> blc14,1000.0
+ ,eth1, ,0c:c4:7a:eb:af:5d,Parkes --> blc14,
+ ,eth2, ,0c:c4:7a:eb:af:5e,Parkes --> blc14,
+ ,eth3, ,0c:c4:7a:eb:af:5f,Parkes --> blc14,
+blc14-4.tenge.pvt,eth4,10.10.10.23,02:02:0a:0a:0a:17,Parkes --> blc14,10000.0
+blc14-5.tenge.pvt,eth5,10.10.10.151,02:02:0a:0a:0a:97,Parkes --> blc14,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc14,
+blc00.bl.pvt,eth0,10.0.1.81,ac:1f:6b:2c:00:2c,Parkes --> blc00,1000.0
+ ,eth1, ,ac:1f:6b:2c:00:2d,Parkes --> blc00,
+ ,eth2, ,ac:1f:6b:2c:00:2e,Parkes --> blc00,
+ ,eth3, ,ac:1f:6b:2c:00:2f,Parkes --> blc00,
+blc00-4.tenge.pvt,eth4,10.10.10.11,02:02:0a:0a:0a:0b,Parkes --> blc00,10000.0
+blc00-5.tenge.pvt,eth5,10.10.10.139,02:02:0a:0a:0a:8b,Parkes --> blc00,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc00,
+blc16.bl.pvt,eth0,10.0.1.95,ac:1f:6b:2c:01:64,Parkes --> blc16,1000.0
+ ,eth1, ,ac:1f:6b:2c:01:65,Parkes --> blc16,
+ ,eth2, ,ac:1f:6b:2c:01:66,Parkes --> blc16,
+ ,eth3, ,ac:1f:6b:2c:01:67,Parkes --> blc16,
+blc16-4.tenge.pvt,eth4,10.10.10.25,02:02:0a:0a:0a:19,Parkes --> blc16,10000.0
+blc16-5.tenge.pvt,eth5,10.10.10.153,02:02:0a:0a:0a:99,Parkes --> blc16,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc16,
+blc02.bl.pvt,eth0,10.0.1.83,ac:1f:6b:2c:00:30,Parkes --> blc02,1000.0
+ ,eth1, ,ac:1f:6b:2c:00:31,Parkes --> blc02,
+ ,eth2, ,ac:1f:6b:2c:00:32,Parkes --> blc02,
+ ,eth3, ,ac:1f:6b:2c:00:33,Parkes --> blc02,
+blc02-4.tenge.pvt,eth4,10.10.10.13,02:02:0a:0a:0a:0d,Parkes --> blc02,10000.0
+blc02-5.tenge.pvt,eth5,10.10.10.141,02:02:0a:0a:0a:8d,Parkes --> blc02,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc02,
+blc03.bl.pvt,eth0,10.0.1.84,0c:c4:7a:eb:3d:20,Parkes --> blc03,1000.0
+ ,eth1, ,0c:c4:7a:eb:3d:21,Parkes --> blc03,
+ ,eth2, ,0c:c4:7a:eb:3d:22,Parkes --> blc03,
+ ,eth3, ,0c:c4:7a:eb:3d:23,Parkes --> blc03,
+blc03-4.tenge.pvt,eth4,10.10.10.14,02:02:0a:0a:0a:0e,Parkes --> blc03,10000.0
+blc03-5.tenge.pvt,eth5,10.10.10.142,02:02:0a:0a:0a:8e,Parkes --> blc03,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc03,
+blc17.bl.pvt,eth0,10.0.1.96,0c:c4:7a:eb:39:38,Parkes --> blc17,1000.0
+ ,eth1, ,0c:c4:7a:eb:39:39,Parkes --> blc17,
+ ,eth2, ,0c:c4:7a:eb:39:3a,Parkes --> blc17,
+ ,eth3, ,0c:c4:7a:eb:39:3b,Parkes --> blc17,
+blc17-4.tenge.pvt,eth4,10.10.10.26,02:02:0a:0a:0a:1a,Parkes --> blc17,10000.0
+blc17-5.tenge.pvt,eth5,10.10.10.154,02:02:0a:0a:0a:9a,Parkes --> blc17,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc17,
+bls0.bl.pvt,eth0,10.0.1.102,0c:c4:7a:eb:af:74,Parkes --> bls0,1000.0
+ ,eth1, ,0c:c4:7a:eb:af:75,Parkes --> bls0,
+ ,eth2, ,0c:c4:7a:eb:af:76,Parkes --> bls0,
+ ,eth3, ,0c:c4:7a:eb:af:77,Parkes --> bls0,
+bls0-4.tenge.pvt,eth4,10.10.10.32,02:02:0a:0a:0a:20,Parkes --> bls0,40000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> bls0,
+blc13.bl.pvt,eth0,10.0.1.92,0c:c4:7a:eb:b1:a4,Parkes --> blc13,1000.0
+ ,eth1, ,0c:c4:7a:eb:b1:a5,Parkes --> blc13,
+ ,eth2, ,0c:c4:7a:eb:b1:a6,Parkes --> blc13,
+ ,eth3, ,0c:c4:7a:eb:b1:a7,Parkes --> blc13,
+blc13-4.tenge.pvt,eth4,10.10.10.22,02:02:0a:0a:0a:16,Parkes --> blc13,10000.0
+blc13-5.tenge.pvt,eth5,10.10.10.150,02:02:0a:0a:0a:96,Parkes --> blc13,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc13,
+blc07.bl.pvt,eth0,10.0.1.88,0c:c4:7a:eb:b1:70,Parkes --> blc07,1000.0
+ ,eth1, ,0c:c4:7a:eb:b1:71,Parkes --> blc07,
+ ,eth2, ,0c:c4:7a:eb:b1:72,Parkes --> blc07,
+ ,eth3, ,0c:c4:7a:eb:b1:73,Parkes --> blc07,
+blc07-4.tenge.pvt,eth4,10.10.10.18,02:02:0a:0a:0a:12,Parkes --> blc07,10000.0
+blc07-5.tenge.pvt,eth5,10.10.10.146,02:02:0a:0a:0a:92,Parkes --> blc07,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc07,
+blc06.bl.pvt,eth0,10.0.1.87,0c:c4:7a:eb:af:8c,Parkes --> blc06,1000.0
+ ,eth1, ,0c:c4:7a:eb:af:8d,Parkes --> blc06,
+ ,eth2, ,0c:c4:7a:eb:af:8e,Parkes --> blc06,
+ ,eth3, ,0c:c4:7a:eb:af:8f,Parkes --> blc06,
+blc06-4.tenge.pvt,eth4,10.10.10.17,02:02:0a:0a:0a:11,Parkes --> blc06,10000.0
+blc06-5.tenge.pvt,eth5,10.10.10.145,02:02:0a:0a:0a:91,Parkes --> blc06,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc06,
+blc12.bl.pvt,eth0,10.0.1.91,0c:c4:7a:eb:b0:d0,Parkes --> blc12,1000.0
+ ,eth1, ,0c:c4:7a:eb:b0:d1,Parkes --> blc12,
+ ,eth2, ,0c:c4:7a:eb:b0:d2,Parkes --> blc12,
+ ,eth3, ,0c:c4:7a:eb:b0:d3,Parkes --> blc12,
+blc12-4.tenge.pvt,eth4,10.10.10.21,02:02:0a:0a:0a:15,Parkes --> blc12,10000.0
+blc12-5.tenge.pvt,eth5,10.10.10.149,02:02:0a:0a:0a:95,Parkes --> blc12,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc12,
+bls1.bl.pvt,eth0,10.0.1.103,ac:1f:6b:2c:01:78,Parkes --> bls1,1000.0
+ ,eth1, ,ac:1f:6b:2c:01:79,Parkes --> bls1,
+ ,eth2, ,ac:1f:6b:2c:01:7a,Parkes --> bls1,
+ ,eth3, ,ac:1f:6b:2c:01:7b,Parkes --> bls1,
+bls1-4.tenge.pvt,eth4,10.10.10.33,02:02:0a:0a:0a:21,Parkes --> bls1,40000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> bls1,
+bls3.bl.pvt,eth0,10.0.1.80,0c:c4:7a:8e:bb:c8,Parkes --> bls3,1000.0
+ ,eth1, ,0c:c4:7a:8e:bb:c9,Parkes --> bls3,
+ ,eth2, ,0c:c4:7a:8e:bb:ca,Parkes --> bls3,
+ ,eth3, ,0c:c4:7a:8e:bb:cb,Parkes --> bls3,
+bls3-4.tenge.pvt,eth4,10.10.10.10,02:02:0a:0a:0a:0a,Parkes --> bls3,10000.0
+bls3-5.tenge.pvt,eth5,10.10.10.138,02:02:0a:0a:0a:8a,Parkes --> bls3,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> bls3,
+blc04.bl.pvt,eth0,10.0.1.85,0c:c4:7a:8e:ba:0c,Parkes --> blc04,1000.0
+ ,eth1, ,0c:c4:7a:8e:ba:0d,Parkes --> blc04,
+ ,eth2, ,0c:c4:7a:8e:ba:0e,Parkes --> blc04,
+ ,eth3, ,0c:c4:7a:8e:ba:0f,Parkes --> blc04,
+blc04-4.tenge.pvt,eth4,10.10.10.15,02:02:0a:0a:0a:0f,Parkes --> blc04,10000.0
+blc04-5.tenge.pvt,eth5,10.10.10.143,02:02:0a:0a:0a:8f,Parkes --> blc04,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc04,
+blc10.bl.pvt,eth0,10.0.1.89,0c:c4:7a:eb:b1:40,Parkes --> blc10,1000.0
+ ,eth1, ,0c:c4:7a:eb:b1:41,Parkes --> blc10,
+ ,eth2, ,0c:c4:7a:eb:b1:42,Parkes --> blc10,
+ ,eth3, ,0c:c4:7a:eb:b1:43,Parkes --> blc10,
+blc10-4.tenge.pvt,eth4,10.10.10.19,02:02:0a:0a:0a:13,Parkes --> blc10,10000.0
+blc10-5.tenge.pvt,eth5,10.10.10.147,02:02:0a:0a:0a:93,Parkes --> blc10,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc10,
+blc11.bl.pvt,eth0,10.0.1.90,0c:c4:7a:eb:39:a8,Parkes --> blc11,1000.0
+ ,eth1, ,0c:c4:7a:eb:39:a9,Parkes --> blc11,
+ ,eth2, ,0c:c4:7a:eb:39:aa,Parkes --> blc11,
+ ,eth3, ,0c:c4:7a:eb:39:ab,Parkes --> blc11,
+blc11-4.tenge.pvt,eth4,10.10.10.20,02:02:0a:0a:0a:14,Parkes --> blc11,10000.0
+blc11-5.tenge.pvt,eth5,10.10.10.148,02:02:0a:0a:0a:94,Parkes --> blc11,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc11,
+blc05.bl.pvt,eth0,10.0.1.86,0c:c4:7a:eb:ad:60,Parkes --> blc05,1000.0
+ ,eth1, ,0c:c4:7a:eb:ad:61,Parkes --> blc05,
+ ,eth2, ,0c:c4:7a:eb:ad:62,Parkes --> blc05,
+ ,eth3, ,0c:c4:7a:eb:ad:63,Parkes --> blc05,
+blc05-4.tenge.pvt,eth4,10.10.10.16,02:02:0a:0a:0a:10,Parkes --> blc05,10000.0
+blc05-5.tenge.pvt,eth5,10.10.10.144,02:02:0a:0a:0a:90,Parkes --> blc05,-1.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc05,
+bls2.bl.pvt,eth0,10.0.1.104,ac:1f:6b:2c:00:e8,Parkes --> bls2,1000.0
+ ,eth1, ,ac:1f:6b:2c:00:e9,Parkes --> bls2,
+ ,eth2, ,ac:1f:6b:2c:00:ea,Parkes --> bls2,
+ ,eth3, ,ac:1f:6b:2c:00:eb,Parkes --> bls2,
+bls2-4.tenge.pvt,eth4,10.10.10.34,02:02:0a:0a:0a:22,Parkes --> bls2,40000.0
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> bls2,

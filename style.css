@@ -1,0 +1,240 @@
+.node {
+		cursor: pointer;
+
+   
+	}
+
+	.node circle {
+	  fill: #fff;
+	  stroke:  white;
+	  stroke-width: 2px;
+    z-index: 100;
+    cursor: pointer;
+
+	}
+  .btn-group {
+    //position: -webkit-sticky;
+  width: 90z%;  
+  //right: 0px;
+  float: top;
+ padding: 0px 1px 0px 1px ;
+  overflow: hidden;
+  z-index: 100;
+  //position:relative;
+ //   display: block;
+   float: top;
+  }
+ .btn {
+     //list-style-type: none;
+  width: 15%;
+//position: fixed;
+  padding: 13px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+
+  float:left;
+
+  overflow: hidden;
+  display: inline-block;
+ //position: fixed;
+ top: 0px;
+ left: 10px;
+ //position: -webkit-sticky;
+ // position: fixed;
+ 
+
+/*
+   //list-style-type: none;
+ width: 160PX;
+position:relative;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+
+// position:absolute;
+   transition: all 0.2s;
+ // overflow: hidden;
+ // display: block;
+//  position: fixed;
+  
+ */
+
+}
+
+ .btn2 {
+
+   //list-style-type: none;
+ // width: 160PX;
+//position: fixed;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+
+  //float:bottom;
+//float: left;
+ // overflow: hidden;
+  //display: block;
+ //position: fixed;
+ bottom: 0px;
+ left: 0px;
+ //position: -webkit-sticky;
+  position: fixed;
+ 
+
+}
+
+.table {
+
+  border-color: rgba(141, 225, 88, 1);
+  background-color: white;
+  color: rgba(141, 225, 88, 1);
+}
+
+.table:hover {
+  
+ 
+
+
+  border: 2px solid rgba(141, 225, 88, 1);
+  background-color: rgb(141, 225, 88, 1);
+  color: white;
+}
+.disk:hover {
+
+  border-color: rgba(141, 225, 88, 1);
+  background-color: white;
+  color: rgba(141, 225, 88, 1);
+}
+
+.disk {
+
+  border: 2px solid rgba(141, 225, 88, 1);
+  background-color: rgb(141, 225, 88, 1);
+  color: white;
+}
+.nic:hover {
+  border: 2px solid rgba(85, 98, 112, 1);
+  background-color: white;
+  color: rgba(85, 98, 112, 1);
+}
+.nic {
+ 
+  border: 2px solid rgba(85, 98, 112, 1);
+  background: rgba(85, 98, 112, 1);
+  color: white;
+}
+.cpu:hover {
+
+ 
+  border-color:  rgba(245, 149, 120, 1);
+  color: rgba(245, 149, 120, 1);
+  background-color: white;
+}
+
+.cpu {
+	border: 2px solid rgba(245, 149, 120, 1);
+  background-color: rgba(245, 149, 120, 1);
+  color: white;
+}
+.gpu:hover {
+
+   border-color:  rgba(78, 205, 196, 1);
+  color: rgba(78, 205, 196, 1);
+  background-color: white;
+}
+
+.gpu {
+	border: 2px solid rgba(78, 205, 196, 1);
+  background-color: rgba(78, 205, 196, 1);
+  color: white;
+}
+
+/* Gray */
+.default {
+  border: 2px solid #dadada;
+  background-color: #dadada;
+  color: white;
+}
+
+.default:hover {
+  background: white;
+  border: 2px solid #dadada;
+  
+  color: #dadada;
+}
+  div.tooltip {
+
+  
+	position: absolute;
+    //border: 2px solid;
+    padding: 5px; 
+    min-width:100px;
+z-index: -99;
+ 	//min-height:40px;
+ 	font: 12px sans-serif;
+    background-color: white;
+border: 1px solid lightgrey;
+    border-radius: 5px;
+
+  }
+.tooltiptext {
+    top: -5px;
+    left: 105%; 
+}
+	/*
+  	//  text-shadow: 4px 4px 5px white, -4px 4px 5px white,
+  	  //			   4px -4px 5px white, -4px -4px 5px white;
+	  
+*/
+body {
+  overflow: auto;
+  
+}
+
+  .node text {
+
+    font-family: Roboto, sans-serif;
+    font-size:  16px;
+    paint-order: stroke;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    
+    
+  }
+
+
+
+
+   
+	}
+	.node.active {
+    transform: translate(30px, 0px);
+
+	}
+	.node.active circle{
+		transition-duration: .5s;
+
+
+		r: 30;
+	}
+	
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+	}
+
+	.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}	
