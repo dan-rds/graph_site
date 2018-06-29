@@ -1,4 +1,4 @@
-Path,total
+Path,Total
 Digilab --> bls0,65865876 kB
 Parkes --> bls1,65858516 kB
 Parkes --> blc21,65860648 kB
@@ -52,7 +52,6 @@ Gbt --> blc12,65861268 kB
 Gbt --> blc06,65867564 kB
 Parkes --> blc16,65858520 kB
 Parkes --> blc02,65858520 kB
-Parkes --> blh0,131925920 kB
 Parkes --> blc06,65858520 kB
 Parkes --> blc12,65858508 kB
 Gbt --> blh0,131927624 kB

@@ -216,40 +216,69 @@ function update(source) {
 	  .attr("class", function(d) { return "node " + d.type; })
 	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
 	  .on("click", click)
-	  .on("dblclick", dblClick)
-	  .on("mouseover", function(d) {
-	  	//console.log(d)
+	  .on("dblclick", dblClick);
+	  // .on("mouseover", function(d) {
+	  // 	//console.log(d)
 	  	
-	  	//console.log(d.tt_info)
-       if (d.tt_info){
-        	div.transition()
+	  // 	//console.log(d.tt_info)
+   //     if (d.tt_info){
+   //      	div.transition()
         	
-          .delay(function(x){ return d.children || d._children ? 100: 100;})
-          .style("opacity", .8)
-          .attr("z-index", "-99")
-          //console.log(typeof(d.tt_info))
-       	   div.html(function(x){
-       	   	return typeof(d.tt_info) == 'string'? d.tt_info : d.tt_info.join("<br>");
-       	   })
-       	   .style("left", (d3.event.pageX +30) + "px")		
-           .style("top", (d3.event.pageY - 40) + "px");	
-          //.style("top", (eventPageX) + "px")// function(c){
-          	//return d.childred || d._children ? (d.x+70)+"px": (d.x+130)+"px";})
-          //.style("left",(d.y+100)+"px");
-       }})
-      .on("mouseout", function(d) {
-        div.transition()
-          .duration(500)
+   //        .delay(function(x){ return d.children || d._children ? 100: 100;})
+   //        .style("opacity", .8)
+   //        .attr("z-index", "-99")
+   //        //console.log(typeof(d.tt_info))
+   //     	   div.html(function(x){
+   //     	   	return typeof(d.tt_info) == 'string'? d.tt_info : d.tt_info.join("<br>");
+   //     	   })
+   //     	   .style("left", (d3.event.pageX +30) + "px")		
+   //         .style("top", (d3.event.pageY - 40) + "px");	
+   //        //.style("top", (eventPageX) + "px")// function(c){
+   //        	//return d.childred || d._children ? (d.x+70)+"px": (d.x+130)+"px";})
+   //        //.style("left",(d.y+100)+"px");
+   //     }})
+   //    .on("mouseout", function(d) {
+   //      div.transition()
+   //        .duration(500)
           
-          .style("opacity", 0)
-          .attr("z-index", "-99");
-        });
+   //        .style("opacity", 0)
+   //        .attr("z-index", "-99");
+   //      });
    
 
   nodeEnter.append("circle")
 	 // .attr("r", 5)
     .attr("r", 10)
-	  .style("fill", function(d)  { return d._children ? get_stroke(d) : 'lightgrey'; });
+	  .style("fill", function(d)  { return d._children ? get_stroke(d) : 'lightgrey'; })
+    .on("mouseover", function(d) {
+      //console.log(d)
+      console.log("x,y  = ", d.x, d.y)
+      //console.log(d.tt_info)
+       if (d.tt_info){
+          div.transition()
+          
+          .delay(function(x){ return d.children || d._children ? 100: 100;})
+          .style("opacity", .8);
+         /// .attr("z-index", "99")
+          //console.log(typeof(d.tt_info))
+           div.html(function(x){
+            return typeof(d.tt_info) == 'string'? d.tt_info : d.tt_info.join("<br>");
+           })
+           
+      
+           .style("top", (d.x +25) + "px")    
+           .style("left", (d.y +120) + "px"); 
+          //.style("top", (eventPageX) + "px")// function(c){
+            //return d.childred || d._children ? (d.x+70)+"px": (d.x+130)+"px";})
+          //.style("left",(d.y+100)+"px");
+       }})
+      .on("mouseout", function(d) {
+        div.transition()
+          //.duration(500)
+          .style("top", "-100px")
+          .style("opacity", 0);
+        });
+   
 
   nodeEnter.append("text")
 	  .attr("x", function(d) { return d.children || d._children ? - (30 - (d.depth*3))  : (30 - (d.depth*3)); })
@@ -278,7 +307,7 @@ function update(source) {
   //	.attr('class', function(d) { return ""+d.type;});
 
   nodeUpdate.select("text")
-  	//.attr("class", "noselect")
+  	.attr("class", "noselect")
 	  .style("fill-opacity", 1);
 
   // Transition exiting nodes to the parent's new position.
@@ -300,7 +329,6 @@ function update(source) {
   // Enter any new links at the parent's previous position.
   link.enter().insert("path", "g")
 	  .attr("class", "link")
-
     //.style("stroke-width", findStroke())// == 1 ? 0 : d.target.depth * 5; })
 	  .attr("d", function(d) {
 		var o = {x: source.x0, y: source.y0};
@@ -324,6 +352,7 @@ function update(source) {
 	  		return ".5"; 
 	  	}
 	  	return "1";});
+
 //	  .style("stroke-width", d.stroke);
 //	  .style("stroke-width", d.stroke);
 
@@ -372,24 +401,6 @@ function click(d) {
   update(d);
 }
 
-// function dblClick(d) {
-// 	console.log("doubleclick", d.children_hardware);
-// 	root = d
-// 	// temp = d.children_hardware;
-// 	// d.children_hardware = d.children;
-// 	// d.children = temp;
-	
-// 	// tempx = d.x
-// 	// click(d);
-// 	// d.x0 = tempx
-// 	// click(d);
-//  //  	d.children.forEach(collapse);
-  
-//   update(d);
-    
-    
-// }
-
 function dblClick(d) {
 	console.log("doubleclick", d.children_hardware);
 	
@@ -427,4 +438,4 @@ function toggle(d) {
 
 </section>
 
-<button class="btn2 default" onclick="window.location.href='./table.html'">Table</button> 
+<button class="btn2 default" style='width: 200px;' onclick="window.location.href='./table.html'">Table</button> 

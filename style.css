@@ -13,16 +13,14 @@
 
 	}
   .btn-group {
-    //position: -webkit-sticky;
-  width: 90z%;  
-  //right: 0px;
-  float: top;
- padding: 0px 1px 0px 1px ;
-  overflow: hidden;
-  z-index: 100;
-  //position:relative;
- //   display: block;
-   float: top;
+ 
+    width: 50%;  
+
+    float: top;
+    padding: 0px 1px 0px 1px ;
+    overflow: hidden;
+    z-index: 100;
+    float: top;
   }
  .btn {
      //list-style-type: none;
@@ -172,7 +170,7 @@ position:relative;
     //border: 2px solid;
     padding: 5px; 
     min-width:100px;
-z-index: -99;
+z-index: 100;
  	//min-height:40px;
  	font: 12px sans-serif;
     background-color: white;
@@ -203,6 +201,7 @@ body {
     stroke-width: 3px;
     stroke-linecap: butt;
     stroke-linejoin: miter;
+
     
     
   }
@@ -227,6 +226,7 @@ body {
 	  fill: none;
 	  stroke: #ccc;
 	  stroke-width: 2px;
+    z-index: -99;
 	}
 
 	.noselect {
