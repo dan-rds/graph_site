@@ -12,6 +12,17 @@
     cursor: pointer;
 
 	}
+  .node rect {
+    fill: #fff;
+    stroke:  white;
+    stroke-width: 2px;
+   // z-index: 100;
+    cursor: pointer;
+    border-radius: 5px;
+    rx: 5;
+    ry: 5;
+    transition-duration: .3s;
+  }
   .btn-group {
  
     width: 50%;  
@@ -163,47 +174,34 @@ position:relative;
   
   color: #dadada;
 }
-  div.tooltip {
-
-  
-	position: absolute;
-    //border: 2px solid;
+div.tooltip {
+    position: absolute;
     padding: 5px; 
     min-width:100px;
-z-index: 100;
- 	//min-height:40px;
- 	font: 12px sans-serif;
+    z-index: 100;
+ 	  font: 12px sans-serif;
     background-color: white;
-border: 1px solid lightgrey;
+    border: 1px solid lightgrey;
     border-radius: 5px;
-
-  }
+}
 .tooltiptext {
     top: -5px;
     left: 105%; 
 }
-	/*
-  	//  text-shadow: 4px 4px 5px white, -4px 4px 5px white,
-  	  //			   4px -4px 5px white, -4px -4px 5px white;
-	  
-*/
+
 body {
   overflow: auto;
-  
 }
 
   .node text {
-
     font-family: Roboto, sans-serif;
     font-size:  16px;
     paint-order: stroke;
     stroke: #fff;
     stroke-width: 3px;
     stroke-linecap: butt;
-    stroke-linejoin: miter;
+    stroke-linejoin: miter; 
 
-    
-    
   }
 
 

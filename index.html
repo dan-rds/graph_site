@@ -149,12 +149,12 @@ function gbt(){
  	update(root)
  }
 function get_color(d){
-	console.log(d.type, " : d.type")
+	//console.log(d.type, " : d.type")
 	return d.type in colors? colors[d.type]: '#fff';
 	
 }
 function get_stroke(d){
-	console.log(d.name in colors_stroke)
+	//console.log(d.name in colors_stroke)
 	if(d.name in colors_stroke){
 		return colors_stroke[d.name];
 	}
@@ -168,14 +168,16 @@ function get_stroke(d){
 }
 var to_display = ["name", "model", "serial", "speed", "make", "diskID", "amount", "ip", "clock", "cores"];
 
-
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
 function find_tt_data(x){
 	//console.log(typeof(d) === 'object')
 	var values = d3.values(x)
 	var m2 = d3.map(x, (function(d){
 		return  typeof(d) === 'string'? d :"" ;
 	}))
-	console.log(m2.values())
+	//console.log(m2.values())
 
 	return values;
 }
@@ -186,8 +188,8 @@ function update(source) {
 	 var newHeight = Math.max(tree.nodes(root).reverse().length * 40, height);
 	//console.log(getDepth(root))
 	var newWidth = Math.max(getDepth(root)*250, width)
-	console.log(newWidth)
-	console.log (width, newWidth, getDepth(root)*251)
+	//console.log(newWidth)
+	//console.log (width, newWidth, getDepth(root)*251)
   d3.select("body svg")
 
     .attr("width", newWidth + margin.right + margin.left)
@@ -213,84 +215,43 @@ function update(source) {
 
   // Enter any new nodes at the parent's previous position.
   var nodeEnter = node.enter().append("g")
+
 	  .attr("class", function(d) { return "node " + d.type; })
 	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
 	  .on("click", click)
 	  .on("dblclick", dblClick);
-	  // .on("mouseover", function(d) {
-	  // 	//console.log(d)
-	  	
-	  // 	//console.log(d.tt_info)
-   //     if (d.tt_info){
-   //      	div.transition()
-        	
-   //        .delay(function(x){ return d.children || d._children ? 100: 100;})
-   //        .style("opacity", .8)
-   //        .attr("z-index", "-99")
-   //        //console.log(typeof(d.tt_info))
-   //     	   div.html(function(x){
-   //     	   	return typeof(d.tt_info) == 'string'? d.tt_info : d.tt_info.join("<br>");
-   //     	   })
-   //     	   .style("left", (d3.event.pageX +30) + "px")		
-   //         .style("top", (d3.event.pageY - 40) + "px");	
-   //        //.style("top", (eventPageX) + "px")// function(c){
-   //        	//return d.childred || d._children ? (d.x+70)+"px": (d.x+130)+"px";})
-   //        //.style("left",(d.y+100)+"px");
-   //     }})
-   //    .on("mouseout", function(d) {
-   //      div.transition()
-   //        .duration(500)
-          
-   //        .style("opacity", 0)
-   //        .attr("z-index", "-99");
-   //      });
    
 
   nodeEnter.append("circle")
-	 // .attr("r", 5)
     .attr("r", 10)
 	  .style("fill", function(d)  { return d._children ? get_stroke(d) : 'lightgrey'; })
-    .on("mouseover", function(d) {
-      //console.log(d)
-      console.log("x,y  = ", d.x, d.y)
-      //console.log(d.tt_info)
-       if (d.tt_info){
-          div.transition()
-          
-          .delay(function(x){ return d.children || d._children ? 100: 100;})
-          .style("opacity", .8);
-         /// .attr("z-index", "99")
-          //console.log(typeof(d.tt_info))
-           div.html(function(x){
-            return typeof(d.tt_info) == 'string'? d.tt_info : d.tt_info.join("<br>");
-           })
-           
-      
-           .style("top", (d.x +25) + "px")    
-           .style("left", (d.y +120) + "px"); 
-          //.style("top", (eventPageX) + "px")// function(c){
-            //return d.childred || d._children ? (d.x+70)+"px": (d.x+130)+"px";})
-          //.style("left",(d.y+100)+"px");
-       }})
-      .on("mouseout", function(d) {
-        div.transition()
-          //.duration(500)
-          .style("top", "-100px")
-          .style("opacity", 0);
-        });
+    .on("mouseover", trigg)
+      .on("mouseout", untrigg);
+
    
 
   nodeEnter.append("text")
-	  .attr("x", function(d) { return d.children || d._children ? - (30 - (d.depth*3))  : (30 - (d.depth*3)); })
+	  .attr("x", function(d) { return d.children || d._children ? - (34 - (d.depth*3))  : (34 - (d.depth*3)); })
 	  .attr("dy", ".35em")
 	  .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
 	  .text(function(d) { return d.name ? d.name : d.hostname ; })
 	  .style("fill-opacity", 1e-6);
 
+  nodeEnter.append("rect")
+    .attr("x", function(d) { return -(5 - (d.depth/4)) * 5 })
+    .attr("y", function(d) { return -(5 - (d.depth/4)) * 5 })
+    .attr("height", function(d) { return (5 - (d.depth/4)) * 10 })
+    .attr("width", function(d) { return (5 - (d.depth/4)) * 10 })
+    .attr("fill-opacity", function(d) { 
+      //console.log(d.type)
+      return d.type == "STORAGE" ? 1 : 1e-6;})
+    .attr("stroke-opacity", function(d) { 
+      //console.log(d.type)
+      return d.type == "STORAGE" ? 1 : 1e-6;})
+    .on("mouseover", trigg)
+      .on("mouseout", untrigg);
 
-  var div = d3.select("body").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 0);
+
   // Transition nodes to their new position.
   var nodeUpdate = node.transition()
 	  .duration(duration)
@@ -298,14 +259,12 @@ function update(source) {
 
   nodeUpdate.select("circle")
     .attr("r", function(d) { return (5 - (d.depth/4)) * 5 })
-
-	 // .attr("r", 10)
-	 //.attr('class', function(d) { return d.type;});
 	  .style("fill", function(d) { return d._children ? get_stroke(d) : get_color(d); })
 	  .style("stroke",function(d) { return d._children ? "#fff":get_stroke(d) });
- // nodeUpdate.select("circle")
-  //	.attr('class', function(d) { return ""+d.type;});
 
+nodeUpdate.select("rect")
+    .style("fill", function(d) { return d._children ? get_stroke(d) : get_color(d); })
+    .style("stroke",function(d) { return d._children ? "#fff":get_stroke(d) });
   nodeUpdate.select("text")
   	.attr("class", "noselect")
 	  .style("fill-opacity", 1);
@@ -318,6 +277,12 @@ function update(source) {
 
   nodeExit.select("circle")
 	  .attr("r", 1e-6);
+  nodeExit.select("text")
+    .attr("opacity", 1e-6)
+    .attr("stroke-opacity", 1e-6);
+  nodeExit.select("rect")
+    .attr("height", 1e-6)
+    .attr("width", 1e-6)
 
   nodeExit.select("text")
 	  .style("fill-opacity", 1e-6);
@@ -335,7 +300,7 @@ function update(source) {
 		return diagonal({source: o, target: o});
 	  })
 	  .style("stroke-width", function(d) { 
-	  console.log(d.target.r)
+	  //console.log(d.target.r)
 	  	if(d.target.stroke < ((5 - (d.target.depth/2)) * 10)){
 	  		return d.target.stroke ; 
 	  	}
@@ -380,7 +345,27 @@ function update(source) {
 }
 
 //============================================================================================
+function trigg(d){
+  if (d.tt_info){
+          div.transition()   
+          .delay(function(x){ return d.children || d._children ? 100: 100;})
+          .style("opacity", .8);
+        div.html(function(x){
 
+            return typeof(d.tt_info) == 'string'? d.tt_info : d.tt_info.join("<br>");
+           })
+           .style("top", (d.x + 20) + "px")    
+           .style("left", (d.y +140) + "px"); 
+       };
+      
+}
+function untrigg(d){
+           div.style("opacity", 0)
+        div.transition()
+          .duration(0)
+          .style("top", "-10000000px")
+          .style("opacity", 0);
+        }
 
 
 
@@ -402,7 +387,7 @@ function click(d) {
 }
 
 function dblClick(d) {
-	console.log("doubleclick", d.children_hardware);
+	//console.log("doubleclick", d.children_hardware);
 	
 	if(d.children_hardware){
 		temp = d.children_hardware;

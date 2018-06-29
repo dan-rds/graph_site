@@ -36,15 +36,12 @@ for parent_dir in dirs:
 			heads_children.append(json.loads(json_file))
 			print( parent_dir + "/" + f)
 		
-	head["children"] =  sorted(heads_children, key=itemgetter('hostname'), reverse=True)
-	print("append", len(heads_children), len(head["children"]),"\n\n\n\n\n\n")
+	head["children"] =  sorted(heads_children, key=itemgetter('hostname'))
+	#print("append", len(heads_children), len(head["children"]),"\n\n\n\n\n\n")
 	dir_dict["children"].append(head)
 
 	root["children"].append(dir_dict)
-	
 
-#print (root)
-#print(root["children"][0]["children"])
 with open("tree_data.json", 'w') as f:
 	json.dump(root, f,indent = 4)
 
@@ -52,16 +49,6 @@ with open("tree_data.json", 'w') as f:
 import csv
 dirs = os.listdir('./glance/csv_data/')
 
-# print(dirs)
-
-# end_values = []
-
-# for f in dirs:
-# 	with open('./glance/csv_data/' + f, 'r') as csvfile:
-# 		spamreader = csv.reader(csvfile)
-# 		head = spamreader.get
-# 		for row in spamreader:
-# 			print (', '.join(row))
 
 
 
@@ -71,20 +58,6 @@ for t in types:
 	combined_csv = pd.concat( [ pd.read_csv('./glance/csv_data/' + f ) for f in list(filter(lambda x: t in x, dirs)) ] )
 	combined_csv.to_csv( t + ".csv", index=False )
 
-
-
-
-
-
-
-
-#print (root)
-#print(root["children"][0]["children"])
-
-'''with open('device.yaml', 'r') as y_file:
-	data_json = (json.dumps(yaml.load(y_file), sort_keys=True, indent=2))
-	with open('/Users/daniel/graph/tree_temp.json', 'w') as tr:
-		tr.write(data_json)'''
 
 
 
