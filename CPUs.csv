@@ -1,149 +1,151 @@
-Socket,Clock,Architecture,Path,Cores,Model,Threads Per Core
-0,3000.0,x86_64,Gbt --> blc23,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc23,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc37,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc37,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> bls1,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Gbt --> bls1,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3200.0,x86_64,Gbt --> bls0,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-1,3200.0,x86_64,Gbt --> bls0,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-0,3200.0,x86_64,Digilab --> bls0,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-1,3200.0,x86_64,Digilab --> bls0,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-0,3000.0,x86_64,Gbt --> blc36,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc36,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc22,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc22,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc34,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc34,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc20,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc20,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> bls2,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Gbt --> bls2,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Gbt --> bls3,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Gbt --> bls3,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Gbt --> blc21,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc21,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc35,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc35,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc31,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc31,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc25,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc25,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> bls0,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> bls0,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> bls1,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> bls1,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Gbt --> blc24,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc24,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc30,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc30,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc26,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc26,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc32,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc32,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> bls3,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Parkes --> bls3,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> bls4,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Gbt --> bls4,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> bls2,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> bls2,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Gbt --> blc33,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc33,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Gbt --> blc27,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Gbt --> blc27,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> blc32,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Parkes --> blc32,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> blc26,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc26,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc27,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc27,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc25,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc25,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3200.0,x86_64,Parkes --> blc31,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-1,3200.0,x86_64,Parkes --> blc31,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-0,3200.0,x86_64,Parkes --> blc30,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-1,3200.0,x86_64,Parkes --> blc30,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-0,3000.0,x86_64,Parkes --> blc24,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc24,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc20,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Parkes --> blc20,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> blc21,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Parkes --> blc21,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> blc23,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc23,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc22,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Parkes --> blc22,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> blc13,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc13,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc07,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc07,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc06,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc06,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc12,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc12,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc04,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc04,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc10,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc10,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc11,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc11,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc05,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc05,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc01,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Parkes --> blc01,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3000.0,x86_64,Parkes --> blc15,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc15,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc14,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc14,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc00,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc00,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc16,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc16,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc02,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc02,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc03,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc03,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3000.0,x86_64,Parkes --> blc17,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-1,3000.0,x86_64,Parkes --> blc17,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2
-0,3200.0,x86_64,Gbt --> blc02,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc02,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc16,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc16,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3000.0,x86_64,Digilab --> blc01,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Digilab --> blc01,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3200.0,x86_64,Digilab --> blc00,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-1,3200.0,x86_64,Digilab --> blc00,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2
-0,3200.0,x86_64,Gbt --> blc17,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc17,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc03,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc03,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc15,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc15,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc01,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc01,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3000.0,x86_64,Digilab --> blc02,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-1,3000.0,x86_64,Digilab --> blc02,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1
-0,3200.0,x86_64,Digilab --> blh0,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Digilab --> blh0,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blh0,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blh0,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc00,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc00,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc14,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc14,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc10,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc10,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc04,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc04,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc05,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc05,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc11,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc11,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc07,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc07,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc13,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc13,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc12,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc12,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-0,3200.0,x86_64,Gbt --> blc06,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
-1,3200.0,x86_64,Gbt --> blc06,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1
+Path,Name,Clock,Cores,Model,Threads Per Core,Socket,Architecture
+Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
+Digilab --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Digilab --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Digilab --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Digilab --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+Digilab --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+Digilab --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
+Parkes --> blc00,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc00,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Parkes --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Parkes --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc03,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc03,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc04,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc04,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc05,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc05,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc06,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc06,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc07,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc07,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc10,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc10,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc11,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc11,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc12,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc12,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc13,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc13,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc14,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc14,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc15,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc15,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc17,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc17,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc20,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Parkes --> blc20,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Parkes --> blc21,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Parkes --> blc21,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Parkes --> blc22,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Parkes --> blc22,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Parkes --> blc23,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc23,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc24,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc24,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc25,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc25,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc26,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc26,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc27,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> blc27,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> blc30,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+Parkes --> blc30,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
+Parkes --> blc31,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+Parkes --> blc31,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
+Parkes --> blc32,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Parkes --> blc32,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Parkes --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+Parkes --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
+Parkes --> bls0,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> bls0,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> bls1,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> bls1,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> bls2,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+Parkes --> bls2,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+Parkes --> bls3,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Parkes --> bls3,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc01,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc01,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc02,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc02,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc03,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc03,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc04,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc04,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc05,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc05,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc06,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc06,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc07,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc07,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc10,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc10,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc11,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc11,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc13,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc13,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc14,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc14,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc15,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc15,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc16,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc16,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc17,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blc17,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> blc20,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc20,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc21,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc21,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc22,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc22,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc23,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc23,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc24,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc24,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc25,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc25,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc26,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc26,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc27,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc27,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc30,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc30,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc31,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc31,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc32,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc32,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc33,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc33,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc34,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc34,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc35,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc35,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc36,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc36,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blc37,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+GBT --> blc37,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+GBT --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+GBT --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+GBT --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+GBT --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
+GBT --> bls1,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+GBT --> bls1,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+GBT --> bls2,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+GBT --> bls2,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+GBT --> bls3,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+GBT --> bls3,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
+GBT --> bls4,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
+GBT --> bls4,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64

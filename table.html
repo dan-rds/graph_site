@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <title>Glance Table</title>
+    <link rel="icon" href="dot-icon.png">
         <meta charset="utf-8">
         <style>
             table {
@@ -22,8 +23,10 @@
 
                 //border: 1px black solid;
                 padding: 5px;
-                font: 15px sans-serif;
+                font: 20px sans-serif;
+                font-weight: bold;
                 text-align: left;
+                border-bottom: 01px solid #ccc;
             }
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -37,13 +40,16 @@
 <button class="btn gpu" onclick= "toggle('GPUs')">GPUs</button>
 <button class="btn cpu" onclick="toggle('CPUs')" >CPUs</button> 
 <button class="btn default" onclick= "toggle('Memory')">Memory</button>
-<button class="btn default" onclick= "toggle('SYS')">Systems</button>
+<button class="btn default" onclick= "toggle('System')">Systems</button>
 </div>  
+
     </head>
+    <br>
     <body id='b'>
         <div id='tab' style='display:none;'></div>
     </body>
         <script type="text/javascript"charset="utf-8">
+        toggle("Disks")
         function toggle(ar) {
             //var x = document.getElementById("tab");
             d3.select("body").selectAll("table").remove();
