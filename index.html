@@ -269,8 +269,10 @@ nodeUpdate.select("rect")
     .attr("opacity", 1e-6)
     .attr("stroke-opacity", 1e-6);
   nodeExit.select("rect")
+    .attr("opacity", 1e-6)
+    .attr("stroke-opacity", 1e-6)
     .attr("height", 1e-6)
-    .attr("width", 1e-6)
+    .attr("width", 1e-6);
 
   nodeExit.select("text")
 	  .style("fill-opacity", 1e-6);
@@ -301,9 +303,9 @@ nodeUpdate.select("rect")
   	  	}
   	  	return "#ccc";})
 
-    .style("stroke", function(d) { 
+    .style("stroke-opacity", function(d) { 
      
-        if(d.target.Speed >1 ){
+        if(d.target.Speed > 1 ){
           return .5; 
         }
         return 1;})
