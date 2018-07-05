@@ -40,11 +40,9 @@ var margin = {top: 20, right: 120, bottom: 20, left: 100},
 	width = 1000 - margin.right - margin.left,
 	height = 800 - margin.top - margin.bottom;
 
-// ************** Generate the tree diagram	 *****************var nic = "rgba(85, 98, 112, 1)";
-var colors = {"nic":"rgba(85, 98, 112, 1)", "gpu":"rgba(78, 205, 196, 1)", "disk":"rgba(141, 225, 88, 1)", 
-        "mem":"rgba(196, 77, 88, 1)", "cpu":"rgba(245, 149, 120, 1)"}
-var colors_stroke = {"NICs":"rgba(85, 98, 112, 1)", "GPUs":"rgba(78, 205, 196, 1)", "Disks":"rgba(141, 225, 88, 1)", 
-				"Memory":"rgba(196, 77, 88, 1)", "CPUs":"rgba(245, 149, 120, 1)"}
+var colors = {"nic":"#ef476f", "cpu":"#ffd166",  "gpu":"#06d6a0",  "mem":"#118ab2",  "disk":"#73389E"} 
+var colors_stroke = {"NICs":colors["nic"], "GPUs":colors["gpu"], "Disks":colors["disk"], 
+				"Memory":colors["mem"], "CPUs":colors["cpu"]}
 var leaf_types = ["nic", "gpu", "disk", "mem","cpu"]
 
 var i = 0,
@@ -195,18 +193,18 @@ function update(source) {
 
   // Normalize for fixed-depth.
   nodes.forEach(function(d) { d.y = d.depth * 250; });
-  
+ 
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
 	  .data(nodes, function(d) { return d.id || (d.id = ++i); }); //------------------------------------------------------------------
 
   // Enter any new nodes at the parent's previous position.
-  var nodeEnter = node.enter().append("g")
+  var nodeEnter = node.enter().append("g")//.transition().delay(750)
 
 	  .attr("class", function(d) { return "node " + d.type; })
 	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-	  .on("click", click)
+	  .on("click", wait_click)
 	  .on("dblclick", dblClick);
    
 
@@ -214,8 +212,9 @@ function update(source) {
     .attr("r", 10)
 	  .style("fill", function(d)  { return d._children ? get_stroke(d) : 'lightgrey'; })
     .on("mouseover", trigg)
-      .on("mouseout", untrigg);
-
+      .on("mouseout", untrigg)
+    .style("z-index", function(d)  { return 100 - (d.depth * 20) });
+    
    
 
   nodeEnter.append("text")
@@ -364,6 +363,7 @@ function highlight(type) {
 // Toggle children on click.
 function click(d) {
 	console.log(d.type)
+
   if (d.children) {
 	d._children = d.children;
 	d.children = null;
@@ -371,9 +371,22 @@ function click(d) {
 	d.children = d._children;
 	d._children = null;
   }
-  update(d);
+  
+    update(d);
 }
-
+function wait_click(d) {
+  console.log(d.type)
+  
+  if (d.children) {
+  d._children = d.children;
+  d.children = null;
+  } else {
+  d.children = d._children;
+  d._children = null;
+  }
+  setTimeout(function(){update(d)}, 100);
+    
+}
 function dblClick(d) {
 	//console.log("doubleclick", d.children_hardware);
 	

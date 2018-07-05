@@ -53,11 +53,11 @@ dirs = os.listdir('./glance/csv_data/')
 
 
 
-import pandas as pd
-types = ["NICs", "GPUs", "CPUs", "Disks", "Memory", "System"]
-for t in types:
-	combined_csv = pd.concat( [ pd.read_csv('./glance/csv_data/' + f ) for f in list(filter(lambda x: t in x, dirs)) ] )
-	combined_csv.to_csv( t + ".csv", index=False )
+# import pandas as pd
+# types = ["NICs", "GPUs", "CPUs", "Disks", "Memory", "System"]
+# for t in types:
+# 	combined_csv = pd.concat( [ pd.read_csv('./glance/csv_data/' + f ) for f in list(filter(lambda x: t in x, dirs)) ] )
+# 	combined_csv.to_csv( t + ".csv", index=False )
 
 
 
