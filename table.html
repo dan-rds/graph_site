@@ -61,7 +61,7 @@
             function t(name) {
             var body = d3.select("body");
 
-            d3.csv("glance/csv_data/" + name + ".csv", function(datasetText) {
+            d3.csv("./glance/csv_data/" + name + ".csv", function(datasetText) {
 
               var headers = Object.keys(datasetText[0]);
 
