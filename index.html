@@ -39,8 +39,9 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 100},
 	width = 1000 - margin.right - margin.left,
 	height = 800 - margin.top - margin.bottom;
+<!-- "nic":"#ef476f" -->
 
-var colors = {"nic":"#ef476f", "cpu":"#ffd166",  "gpu":"#06d6a0",  "mem":"#118ab2",  "disk":"#73389E"} 
+var colors = {"nic":"#000fff", "cpu":"#ffd166",  "gpu":"#06d6a0",  "mem":"#118ab2",  "disk":"#73389E"} 
 var colors_stroke = {"NICs":colors["nic"], "GPUs":colors["gpu"], "Disks":colors["disk"], 
 				"Memory":colors["mem"], "CPUs":colors["cpu"]}
 var leaf_types = ["nic", "gpu", "disk", "mem","cpu"]
@@ -332,7 +333,7 @@ nodeUpdate.select("rect")
 }
 
 function trigg(d){
-  console.log(d.Speed)
+  //console.log(d.Speed)
   if (d.tt_info){
           div.transition()   
           .delay(function(x){ return d.children || d._children ? 100: 100;})
@@ -362,8 +363,6 @@ function highlight(type) {
 }
 // Toggle children on click.
 function click(d) {
-	console.log(d.type)
-
   if (d.children) {
 	d._children = d.children;
 	d.children = null;
@@ -375,8 +374,8 @@ function click(d) {
     update(d);
 }
 function wait_click(d) {
-  console.log(d.type)
-  
+  console.log(d.children)
+  console.log(d._children)
   if (d.children) {
   d._children = d.children;
   d.children = null;
